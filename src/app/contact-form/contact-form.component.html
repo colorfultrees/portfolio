@@ -1,0 +1,6 @@
+<form (submit)="commitForm()" #mailForm ngNativeValidate>
+    <input required type="text" name="name" #name placeholder="Ihr Vor- und Zuname">
+    <input required type="email" name="email" #email placeholder="Ihre E-Mail-Adresse">
+    <textarea required type="text" name="message" #message placeholder="Ihre Nachricht ..."></textarea>
+    <button>Absenden</button>
+</form>
