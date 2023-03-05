@@ -33,13 +33,24 @@ export class ContactFormComponent {
     formData.append('name', name.value);
     formData.append('email', email.value);
     formData.append('message', message.value);
-    await fetch (
-      'https://christof-mark.developerakademie.net/portfolio/send_mail/send_mail.php',
-      {
-        method: 'POST',
-        body: formData
-      }
-    );
+    try {
+        const response = await fetch (
+          'https://christof-mark.developerakademie.net/portfolio/send_mail.php',
+          {
+            method: 'POST',
+            body: formData
+          }
+        );
+
+        if (!response.ok) {
+          throw new Error(`Sorry, the email could not be sent! (Error: ${response.status})`);
+        }
+
+        console.log('Email successfully sent.');
+    }
+    catch (err) {
+      console.log(`Oops, something went wrong! (Error: ${err})`);
+    }
   }
 
   resetForm(name: any, email: any, message: any) {
