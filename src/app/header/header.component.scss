@@ -10,7 +10,7 @@ header {
     width: $bg-box_width-ration;
     background-color: $color-minor_light;
     padding: 60px 0px 52px 65px;
-    
+
     ul {
         font-size: 16px;
         font-weight: 500;
@@ -19,5 +19,9 @@ header {
         padding: 0;
         display: flex;
         gap: 66px;
+    }
+
+    li {
+        cursor: pointer;
     }
 }
