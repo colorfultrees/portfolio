@@ -1,0 +1,23 @@
+@import 'src/styles/variables.scss';
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#content {
+    width: $bg-box_width-ration;
+    background-color: $color-minor_light;
+    padding: 60px 0px 52px 65px;
+    
+    ul {
+        font-size: 16px;
+        font-weight: 500;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 66px;
+    }
+}
