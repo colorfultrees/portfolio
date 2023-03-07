@@ -1,0 +1,10 @@
+<div class="project">
+    <img src="{{ imgUrl }}" alt="{{ imgAltTxt }}">
+    <div class="proj-desc">
+        <h2>{{ name }}</h2>
+        <ul class="technologies">
+            <li *ngFor="let tech of technologies">{{ tech }}</li>
+        </ul>
+        <p>{{ description }}</p>
+    </div>
+</div>
