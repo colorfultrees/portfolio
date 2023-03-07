@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { HeaderComponent } from './header/header.component';
 import { SectionHomeComponent } from './section-home/section-home.component';
+import { SectionSkillsComponent } from './section-skills/section-skills.component';
+import { SectionProjectsComponent } from './section-projects/section-projects.component';
+import { SectionAboutComponent } from './section-about/section-about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactFormComponent,
     HeaderComponent,
-    SectionHomeComponent
+    SectionHomeComponent,
+    SectionSkillsComponent,
+    SectionProjectsComponent,
+    SectionAboutComponent
   ],
   imports: [
     BrowserModule,
