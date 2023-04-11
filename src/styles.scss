@@ -3,6 +3,9 @@
 
 @mixin headline-font {
     font-weight: 700;
+}
+
+@mixin headline-layout {
     margin-block-start: 0;
     margin-block-end: 0;
 }
@@ -19,13 +22,29 @@ body {
 
 h1 {
     @include headline-font();
+    @include headline-layout();
     font-size: 80px;
 }
 
 h2 {
     @include headline-font();
+    @include headline-layout();
     font-size: 54px;
     color: $color-minor_medium;
+}
+
+h3 {
+    @include headline-layout();
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: $color-minor_medium2;
+    opacity: 0.6;
+}
+
+p {
+    line-height: 36px;
+    color: $color-minor_dark;
 }
 
 .section-title {
