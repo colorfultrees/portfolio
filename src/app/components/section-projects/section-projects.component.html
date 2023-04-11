@@ -1,13 +1,17 @@
 <h1 class="section-title">Projects</h1>
 <div id="project-list">
-    <app-project 
-        [name]="projects.NAME[0]"
+    <app-project
+        *ngFor="let project of prList; let i = index"
+        [projectItem]="project"
+        [revers]="i % 2 == 0 ? false : true">
+    </app-project>
+        <!-- [name]="projects.NAME[0]"
         [description]="projects.DESCRIPTION[0]"
         [technologies]="projects.TECHNOLOGIES[0]"
         [imgUrl]="projects.IMG_URL[0]['url']"
         [imgAltTxt]="projects.IMG_URL[0]['alt']"
-        [revers]="false"></app-project>
-        <app-project 
+        [revers]="false"></app-project> -->
+        <!-- <app-project 
         [name]="projects.NAME[1]"
         [description]="projects.DESCRIPTION[1]"
         [technologies]="projects.TECHNOLOGIES[1]"
@@ -20,7 +24,7 @@
         [technologies]="projects.TECHNOLOGIES[2]"
         [imgUrl]="projects.IMG_URL[2]['url']"
         [imgAltTxt]="projects.IMG_URL[2]['alt']"
-        [revers]="false"></app-project>
+        [revers]="false"></app-project> -->
     <!-- <div class="project">
         <img src="" alt="">
         <div class="proj-desc">

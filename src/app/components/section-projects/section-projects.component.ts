@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Projects } from 'src/models/projects';
+import { projects } from 'src/models/projects';
 
 @Component({
   selector: 'app-section-projects',
@@ -7,5 +7,5 @@ import { Projects } from 'src/models/projects';
   styleUrls: ['./section-projects.component.scss']
 })
 export class SectionProjectsComponent {
-  projects: Projects = new Projects;
+  prList = projects;
 }

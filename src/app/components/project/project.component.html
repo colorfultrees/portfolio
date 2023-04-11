@@ -1,0 +1,10 @@
+<div class="project" [class.revers]="revers">
+    <img src="{{ projectItem.IMG_REF.URL }}" alt="{{ projectItem.IMG_REF.ALT}}">
+    <div class="proj-desc" [class.right-align]="revers">
+        <h2>{{ projectItem.NAME }}</h2>
+        <ul class="technologies">
+            <li *ngFor="let tech of projectItem.TECHNOLOGIES">{{ tech }}</li>
+        </ul>
+        <p>{{ projectItem.DESCRIPTION }}</p>
+    </div>
+</div>

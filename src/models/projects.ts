@@ -1,34 +1,50 @@
-export class Projects {
-    public NAME: string[] = [
-        'Project 1',
-        'Project 2',
-        'Project 3'
-    ];
-
-    public DESCRIPTION: string[] = [
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?'
-    ]
-
-    public TECHNOLOGIES: string[][] = [
-        ['HTML', 'CSS', 'Javascript'],
-        ['HTML', 'CSS', 'Javascript', 'OOP'],
-        ['HTML', 'SCSS', 'Typescript', 'Angular', 'Firebase']
-    ]
-
-    public IMG_URL: any[] = [
-        {
-            url: '',
-            alt: 'Image Project 1'
-        },
-        {
-            url: '',
-            alt: 'Image Project 2'
-        },
-        {
-            url: '',
-            alt: 'Image Project 3'
-        }
-    ]
+export interface ImgRef {
+    URL: string,
+    ALT: string
 }
+
+export interface Projects {
+    NAME: string,
+    DESCRIPTION: string,
+    TECHNOLOGIES: Array<string>,
+    IMG_REF: ImgRef
+}
+
+export const projects: Array<Projects> = [
+    {
+        NAME: 'Pokédex',
+        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        TECHNOLOGIES: ['HTML', 'CSS', 'Javascript', 'API'],
+        IMG_REF: {
+            URL: '',
+            ALT: 'Screenshot from Pokédex'
+        }
+    },
+    {
+        NAME: 'JOIN Kanban Project Management Tool',
+        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        TECHNOLOGIES: ['HTML', 'CSS', 'Javascript'],
+        IMG_REF: {
+            URL: '',
+            ALT: 'Screenshot from JOIN'
+        }
+    },
+    {
+        NAME: 'El Pollo Loco',
+        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        TECHNOLOGIES: ['HTML', 'CSS', 'Javascript', 'OOP'],
+        IMG_REF: {
+            URL: '',
+            ALT: 'Screenshot from El Pollo Loco'
+        } 
+    },
+    {
+        NAME: 'Slack-Clone',
+        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Firebase'],
+        IMG_REF: {
+            URL: '',
+            ALT: 'Screenshot from Slack-Clone'
+        } 
+    }
+]

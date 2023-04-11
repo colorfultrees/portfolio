@@ -15,7 +15,7 @@ section {
     justify-content: flex-end;
 
     img {
-        margin-right: 20%;
+        // margin-right: 20%;
         // margin-left: 100px;
         height: 100%;
     }
@@ -38,8 +38,9 @@ section {
         padding: 40px 100px 40px 30px;
         font-size: 24px;
         font-weight: 500;
-        letter-spacing: 0.8em;
+        letter-spacing: 0.2em;
         background-color: $color-main;
         width: max-content;
+        text-align: center;
     }
 }
