@@ -28,12 +28,32 @@
                 font-size: 16px;
                 color: $color-minor_dark2;
                 outline: none;
+                border: none;
                 width: 100%;
+                height: 50px;
             }
 
             textarea {
                 resize: none;
                 height: 150px;
+            }
+        }
+
+        button {
+            font-family: 'Sen', 'sans-serif';
+            background-color: $bg-btn;
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            padding: 24px 33px;
+            border: none;
+            cursor: pointer;
+            transition: all 270ms ease-in;
+
+            &:hover {
+                transition: all 125ms ease-out;
+                background-color: #ffc117;
+                color: $bg-btn;
             }
         }
     }
