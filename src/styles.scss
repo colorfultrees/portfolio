@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Poppins';
+    font-family: 'Poppins', 'sans-serif';
     font-size: 18px;
     margin: 0;
 }
@@ -24,16 +24,31 @@ h1 {
     @include headline-font();
     @include headline-layout();
     font-size: 80px;
+    color: $text_page-title
 }
 
 h2 {
+    @include headline-font();
+    @include headline-layout();
+    font-size: 80px;
+    color: $text_section-title;
+}
+
+h3 {
+    @include headline-font();
+    @include headline-layout();
+    font-size: 60px;
+    color: $text_subtitle
+}
+
+h4 {
     @include headline-font();
     @include headline-layout();
     font-size: 54px;
     color: $color-minor_medium;
 }
 
-h3 {
+h5 {
     @include headline-layout();
     font-size: 16px;
     font-weight: 500;

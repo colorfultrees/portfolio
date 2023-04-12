@@ -1,0 +1,39 @@
+@import 'src/styles/variables.scss';
+
+#content {
+    width: 100%;
+    padding: 78px $content-margin 120px;
+    background-color: $color-main;
+    display: flex;
+    justify-content: space-between;
+
+    #contact-info {
+        font-size: 16px;
+        line-height: 27px;
+        color: $color-minor_dark2;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        
+        .contact-sub {
+            display: flex;
+            flex-direction: column;
+            
+            input, textarea {
+                font-family: 'Poppins', 'sans-serif';
+                font-size: 16px;
+                color: $color-minor_dark2;
+                outline: none;
+                width: 100%;
+            }
+
+            textarea {
+                resize: none;
+                height: 150px;
+            }
+        }
+    }
+}
