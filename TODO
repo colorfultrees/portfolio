@@ -1,10 +1,14 @@
 Allgemein:
   ☐ Korrekte E-Mail-Adresse überall eintragen
+  ✔ Kontaktdaten in eigener Datei verwalten (contact.ts) @done(23-04-13 20:37)
+  ☐ Datenvalidierung und Warnmeldung für Eingabefelder implementieren
 
 Design:
   ☐ Darstellung Scrollbar
   ☐ Schatten unter Header nach Scrollbeginn
   ☐ Hamburger-Menü in Header für Mobilansicht
+  ☐ Sidebar für Mobilansicht
+  ☐ Responsive Design
 
 Animationen:
   ☐ Scroll-Down Arrow
@@ -12,3 +16,5 @@ Animationen:
   ☐ Hover-Effekt auf Skill-Icon(??)
   ☐ Hover-Effekt auf Send-Btn
   ☐ Hover-Effekt auf Menü-Einträge
+  ☐ "Lazy Loading" für Projekt-Einträge
+  ☐ ggf. "Lazy Loading" für weitere Elemente, z. B. Kontaktfelder, Skills, ...
