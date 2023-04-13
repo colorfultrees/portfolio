@@ -1,16 +1,16 @@
-export interface ImgRef {
+interface ImgRef {
     URL: string,
     ALT: string
 }
 
-export interface Projects {
+interface Project {
     NAME: string,
     DESCRIPTION: string,
     TECHNOLOGIES: Array<string>,
     IMG_REF: ImgRef
 }
 
-export const projects: Array<Projects> = [
+export const projects: Array<Project> = [
     {
         NAME: 'Pokédex',
         DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',

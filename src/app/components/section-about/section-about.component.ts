@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { contactData } from 'src/models/contact';
 
 @Component({
   selector: 'app-section-about',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./section-about.component.scss']
 })
 export class SectionAboutComponent {
-
+  contact = contactData;
 }

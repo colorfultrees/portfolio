@@ -1,13 +1,53 @@
 <h2 class="section-title">Skills</h2>
-<div>
-    <img src="assets/icons/html.png" alt="">
-    <img src="assets/icons/css.png" alt="">
-    <img src="assets/icons/javascript.png" alt="">
-    <img src="assets/icons/typescript.png" alt="">
-    <img src="assets/icons/api.png" alt="">
-    <img src="assets/icons/angular.png" alt="">
-    <img src="assets/icons/material.png" alt="">
-    <img src="assets/icons/firebase.png" alt="">
-    <img src="assets/icons/git.png" alt="">
-    <img src="assets/icons/scrum.png" alt="">
+<div id="skills">
+    <div class="skill" *ngFor="let skill of skills">
+        <img class="ico-black" src="{{ skill.iconBlack }}" alt="{{ skill.name}}">
+        <img class="ico-colored" src="{{ skill.iconColor }}" alt="">
+        <span>{{ skill.name }}</span>
+    </div>
+    <!-- <div id="test">
+        <img class="ico-black" src="assets/icons/html.png" alt="">
+        <img class="ico-colored" src="assets/icons/html_color.png" alt="">
+        <span>CSS3</span>
+    </div> -->
+    <!-- <div>
+        <img src="assets/icons/scss.png" alt="">
+        <span>SCSS/SASS</span>
+    </div>
+    <div>
+        <img src="assets/icons/javascript.png" alt="">
+        <span>Javascript</span>
+    </div>
+    <div>
+        <img src="assets/icons/typescript.png" alt="">
+        <span>Typescript</span>
+    </div>
+    <div>
+        <img src="assets/icons/api.png" alt="">
+        <span>Rest API</span>
+    </div>
+    <div>
+        <img src="assets/icons/angular.png" alt="">
+        <span>Angular</span>
+    </div>
+    <div>
+        <img src="assets/icons/material.png" alt="">
+        <span>Angular Material UI</span>
+    </div>
+    <div>
+        <img src="assets/icons/firebase.png" alt="">
+        <span>Firebase</span>
+    </div>
+    <div>
+        <img src="assets/icons/wordpress.png" alt="">
+        <span>Wordpress</span>
+    </div>
+    <div>
+        <img src="assets/icons/git.png" alt="">
+        <span>git</span>
+    </div>
+    <div>
+        <img src="assets/icons/scrum.png" alt="">
+        <span>Scrum</span>
+    </div> -->
 </div>

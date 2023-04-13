@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { skills } from 'src/models/skills';
 
 @Component({
   selector: 'app-section-skills',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./section-skills.component.scss']
 })
 export class SectionSkillsComponent {
-
+  skills = skills;
 }

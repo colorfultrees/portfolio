@@ -1,0 +1,58 @@
+@import 'src/styles/variables.scss';
+
+$transition: opacity 250ms ease-out;
+
+#skills {
+    width: 100%;
+    max-width: 965px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 45px;
+
+    .skill {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 7px;
+        cursor: crosshair;
+
+        span {
+            font-weight: 500;
+            // transition: $transition;
+        }
+
+        .ico-black {
+            height: 70px;
+            opacity: 1;
+            filter: invert(43%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(98%) contrast(91%);
+            transition: $transition;
+        }
+    
+        .ico-colored {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            height: 70px;
+            opacity: 0;
+            transition: $transition;
+        }
+
+        &:hover {
+            span {
+                color: $color-minor_dark;
+            }
+
+            .ico-black {
+                opacity: 0;
+            }
+
+            .ico-colored {
+                opacity: 1;
+            }
+        }
+    }
+}

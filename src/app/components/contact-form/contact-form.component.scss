@@ -52,7 +52,7 @@
 
             &:hover {
                 transition: all 125ms ease-out;
-                background-color: #ffc117;
+                background-color: $color-main_strong;
                 color: $bg-btn;
             }
         }
