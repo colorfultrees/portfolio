@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-between;
 
+    #contact-intro {
+        margin-right: 50px;
+    }
+
     #contact-info {
         font-size: 16px;
         line-height: 27px;
@@ -16,7 +20,7 @@
     form {
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 15px;
         width: 40%;
         
         .contact-sub {
@@ -41,20 +45,42 @@
 
         button {
             font-family: 'Sen', 'sans-serif';
-            background-color: $bg-btn;
             font-weight: 700;
             font-size: 18px;
-            color: white;
             padding: 24px 33px;
             border: none;
-            cursor: pointer;
             transition: all 270ms ease-in;
+        }
 
-            &:hover {
-                transition: all 125ms ease-out;
-                background-color: $color-main_strong;
-                color: $bg-btn;
-            }
+        span {
+            font-size: 14px;
+            color: rgb(160, 0, 0);
         }
     }
+}
+
+.btn-enabled {
+    background-color: $bg-btn;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+        transition: all 125ms ease-out;
+        background-color: $color-main_strong;
+        color: $bg-btn;
+    }
+}
+
+.btn-disabled {
+    background-color: $color-minor_dark;
+    color: $color-minor_medium;
+    cursor: not-allowed;
+}
+
+.err-hidden {
+    visibility: hidden;
+}
+
+.err-visible {
+    visibility: visible;
 }

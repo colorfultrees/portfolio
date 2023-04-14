@@ -25,7 +25,7 @@ import { ProjectComponent } from './components/project/project.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

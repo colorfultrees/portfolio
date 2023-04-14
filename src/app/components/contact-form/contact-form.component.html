@@ -1,21 +1,24 @@
 <div id="content">
-    <div>
+    <div id="contact-intro">
         <h3>Let's talk business</h3>
         <p id="contact-info">Now that you learned about me, let me know if you're interested in working with me.</p>
     </div>
-    <form (submit)="commitForm()" #mailForm ngNativeValidate>
+    <form (submit)="commitForm(mailForm.value, mailForm)" #mailForm="ngForm">
         <div class="contact-sub">
             <label for="name">Name</label>
-            <input required type="text" name="name" #name placeholder="Please enter your name ...">
+            <input required type="text" name="name" ngModel #name="ngModel" placeholder="Your name ...">
+            <span [ngClass]="name.invalid && name.touched ? 'err-visible' : 'err-hidden'">Please enter your name!</span>
         </div>
         <div class="contact-sub">
             <label for="email">Email</label>
-            <input required type="email" name="email" #email placeholder="Please enter your mail address ...">
+            <input required type="email" name="email" email ngModel #email="ngModel" placeholder="Your mail address ...">
+            <span [ngClass]="email.invalid && email.touched ? 'err-visible' : 'err-hidden'">Please enter a valid email address!</span>
         </div>
         <div class="contact-sub">
             <label for="message">Message</label>
-            <textarea required type="text" name="message" #message placeholder="Please type your message ..."></textarea>
+            <textarea required type="text" name="message" ngModel #message="ngModel" placeholder="Your message ..."></textarea>
+            <span [ngClass]="message.invalid && message.touched ? 'err-visible' : 'err-hidden'">Please enter your message!</span>
         </div>
-        <button>SEND MESSAGE</button>
+        <button [ngClass]="mailForm.invalid ? 'btn-disabled' : 'btn-enabled'" [disabled]="mailForm.invalid">SEND MESSAGE</button>
     </form>
 </div>
