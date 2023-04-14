@@ -1,7 +1,7 @@
 Allgemein:
   ☐ Korrekte E-Mail-Adresse überall eintragen
   ✔ Kontaktdaten in eigener Datei verwalten (contact.ts) @done(23-04-13 15:30)
-  ☐ Datenvalidierung und Warnmeldung für Eingabefelder implementieren @started(23-04-14 15:06)
+  ✔ Datenvalidierung und Warnmeldung für Eingabefelder implementieren @started(23-04-14 15:06) @done(23-04-14 17:53) @lasted(2h47m5s)
   ☐ E-Mail-Versand bestätigen (Pop-up)
   ☐ Bestätigungsmail an Absender (Option)
 
