@@ -19,6 +19,11 @@
             <textarea required type="text" name="message" ngModel #message="ngModel" placeholder="Your message ..."></textarea>
             <span [ngClass]="message.invalid && message.touched ? 'err-visible' : 'err-hidden'">Please enter your message!</span>
         </div>
-        <button [ngClass]="mailForm.invalid ? 'btn-disabled' : 'btn-enabled'" [disabled]="mailForm.invalid">SEND MESSAGE</button>
+        <div id="btn-container">
+            <button [ngClass]="mailForm.invalid ? 'btn-disabled' : 'btn-enabled'" [disabled]="mailForm.invalid">SEND MESSAGE</button>
+            <div id="notifier">
+                Mail<br>sent
+            </div>
+        </div>
     </form>
 </div>

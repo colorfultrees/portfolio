@@ -43,11 +43,18 @@
             }
         }
 
+        #btn-container {
+            position: relative;
+        }
+
         button {
+            position: relative;
+            z-index: 1;
             font-family: 'Sen', 'sans-serif';
             font-weight: 700;
             font-size: 18px;
             padding: 24px 33px;
+            width: 100%;
             border: none;
             transition: all 270ms ease-in;
         }
@@ -55,6 +62,23 @@
         span {
             font-size: 14px;
             color: rgb(160, 0, 0);
+        }
+
+        #notifier {
+            position: absolute;
+            z-index: 0;
+            width: max-content;
+            height: 220%;
+            font-weight: 400;
+            bottom: 0;
+            // left: 0;
+            right: 20px;
+            // margin: 0 auto;
+            background-color: rgb(255, 153, 0);
+            color: black;
+            text-align: center;
+            padding: 10px 25px;
+            border-radius: 16px;
         }
     }
 }
@@ -66,8 +90,8 @@
 
     &:hover {
         transition: all 125ms ease-out;
-        background-color: $color-main_strong;
-        color: $bg-btn;
+        background-color: $color-minor_dark2;
+        color: $color-main;
     }
 }
 
