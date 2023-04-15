@@ -13,11 +13,16 @@
     height: calc(100vh - $content-header_height);
 }
 
-#page-wrapper {
-    width: 100%;
-    padding: 0 $content-margin;
+// #page-wrapper {
+//     width: 100%;
+//     padding: 0 $content-margin;
+// }
+
+.section-wrap {
+    margin-left: $content-margin;
+    margin-right: $content-margin;
 }
 
-.section-margin {
+.section-divider {
     margin-top: $section_margin-top;
 }

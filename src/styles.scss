@@ -30,21 +30,21 @@ h1 {
 h2 {
     @include headline-font();
     @include headline-layout();
-    font-size: 80px;
+    font-size: 60px;
     color: $text_section-title;
 }
 
 h3 {
     @include headline-font();
     @include headline-layout();
-    font-size: 60px;
+    font-size: 45px;
     color: $text_subtitle
 }
 
 h4 {
     @include headline-font();
     @include headline-layout();
-    font-size: 54px;
+    font-size: 39px;
     color: $color-minor_medium;
 }
 

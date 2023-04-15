@@ -7,22 +7,22 @@
         <div class="contact-sub">
             <label for="name">Name</label>
             <input required type="text" name="name" ngModel #name="ngModel" placeholder="Your name ...">
-            <span [ngClass]="name.invalid && name.touched ? 'err-visible' : 'err-hidden'">Please enter your name!</span>
+            <span [class.err-visible]="name.invalid && name.touched">Please enter your name!</span>
         </div>
         <div class="contact-sub">
             <label for="email">Email</label>
             <input required type="email" name="email" email ngModel #email="ngModel" placeholder="Your mail address ...">
-            <span [ngClass]="email.invalid && email.touched ? 'err-visible' : 'err-hidden'">Please enter a valid email address!</span>
+            <span [class.err-visible]="email.invalid && email.touched">Please enter a valid email address!</span>
         </div>
         <div class="contact-sub">
             <label for="message">Message</label>
             <textarea required type="text" name="message" ngModel #message="ngModel" placeholder="Your message ..."></textarea>
-            <span [ngClass]="message.invalid && message.touched ? 'err-visible' : 'err-hidden'">Please enter your message!</span>
+            <span [class.err-visible]="message.invalid && message.touched">Please enter your message!</span>
         </div>
         <div id="btn-container">
             <button [ngClass]="mailForm.invalid ? 'btn-disabled' : 'btn-enabled'" [disabled]="mailForm.invalid">SEND MESSAGE</button>
-            <div id="notifier">
-                Mail<br>sent
+            <div id="notifier" [class.show-notifier]="hasMailSent">
+                Message<br>sent
             </div>
         </div>
     </form>

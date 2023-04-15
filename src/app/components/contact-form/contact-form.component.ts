@@ -7,10 +7,7 @@ import { NgForm, NgModel } from '@angular/forms';
   styleUrls: ['./contact-form.component.scss']
 })
 export class ContactFormComponent {
-  // @ViewChild('mailForm') mailForm!: ElementRef;
-  // @ViewChild('name') name: any;
-  // @ViewChild('email') email: any;
-  // @ViewChild('message') message: any;
+  hasMailSent: boolean = false;
 
 
   /**
@@ -19,23 +16,12 @@ export class ContactFormComponent {
    * @param form - The form itself
    */
   async commitForm(data: any, form: NgForm) {
-    // const name = this.name.nativeElement;
-    // const email = this.email.nativeElement;
-    // const message = this.message.nativeElement;
-    
-    
-    // console.log('Mail senden ...', this.mailForm);
-    console.log('Data from form:', data);
-    console.log(`name: ${data.name}, email: ${data.email}, message: ${data.message}`);
-    // console.log(`Eingabe: ${name.value}, ${email.value}, ${message.value}`);
-
-
-    await this.sendMail(data);
-
-
-
-    // this.resetForm(name, email, message);
-    form.resetForm();
+    // await this.sendMail(data);
+    this.hasMailSent = true;
+    setTimeout(() => {
+      this.hasMailSent = false;
+      form.resetForm();
+    }, 4010);
   }
   
 

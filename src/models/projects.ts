@@ -21,7 +21,7 @@ export const projects: Array<Project> = [
         }
     },
     {
-        NAME: 'JOIN Kanban Project Management Tool',
+        NAME: 'JOIN',
         DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript'],
         IMG_REF: {
@@ -39,12 +39,12 @@ export const projects: Array<Project> = [
         } 
     },
     {
-        NAME: 'Slack-Clone',
+        NAME: 'getConn',
         DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
         TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Firebase'],
         IMG_REF: {
             URL: '',
-            ALT: 'Screenshot from Slack-Clone'
+            ALT: 'Screenshot from getConn'
         } 
     }
 ]
