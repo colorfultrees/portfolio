@@ -7,6 +7,8 @@ Allgemein:
   ☐ Texte schreiben
   ☐ Portrait(s) einbinden
   ☐ E-Mail-Adresse von eigener Domain verwenden?
+  ☐ Menü-Einträge mit Sektionen verlinken
+  ☐ Impressum & Datenschutz
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
@@ -16,6 +18,7 @@ Design:
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
+  ☐ Footer
 
 Animationen:
   ✔ Scroll-Down Arrow in Home-Section @done(23-04-16 16:24)
