@@ -15,10 +15,10 @@ Design:
   ☐ Sidebar für Mobilansicht
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
-  ☐ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe
+  ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
 
 Animationen:
-  ☐ Scroll-Down Arrow in Home-Section
+  ✔ Scroll-Down Arrow in Home-Section @done(23-04-16 16:24)
   ☐ Hamburger-Menü
   ✔ Hover-Effekt auf Skill-Icon @done(23-04-13 20:30)
   ✔ Hover-Effekt auf Send-Btn @done(23-04-13 16:00)
