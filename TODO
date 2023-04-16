@@ -9,12 +9,13 @@ Allgemein:
   ☐ E-Mail-Adresse von eigener Domain verwenden?
 
 Design:
-  ☐ Darstellung Scrollbar
+  ✔ Darstellung Scrollbar @done(23-04-16 12:28)
   ☐ Schatten unter Header nach Scrollbeginn
   ☐ Hamburger-Menü in Header für Mobilansicht
   ☐ Sidebar für Mobilansicht
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
+  ☐ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe
 
 Animationen:
   ☐ Scroll-Down Arrow in Home-Section

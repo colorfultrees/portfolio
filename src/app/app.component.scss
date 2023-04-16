@@ -8,10 +8,10 @@
     z-index: 999;
 }
 
-#section-home {
-    display: block;
-    height: calc(100vh - $content-header_height);
-}
+// #section-home {
+//     display: block;
+//     height: calc(100vh - $content-header_height);
+// }
 
 // #page-wrapper {
 //     width: 100%;
@@ -25,4 +25,8 @@
 
 .section-divider {
     margin-top: $section_margin-top;
+}
+
+.section-divider-thin {
+    margin-top: 10px;
 }
