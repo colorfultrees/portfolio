@@ -7,7 +7,8 @@ Allgemein:
   ☐ Texte schreiben
   ☐ Portrait(s) einbinden
   ☐ E-Mail-Adresse von eigener Domain verwenden?
-  ☐ Menü-Einträge mit Sektionen verlinken
+  ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
+  ☐ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!)
   ☐ Impressum & Datenschutz
 
 Design:
@@ -18,7 +19,10 @@ Design:
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
-  ☐ Footer
+  Footer:
+    ✔ Footer erstellen @done(23-04-17 18:58)
+    ☐ Link zu Xing einfügen
+    ☐ Link zu Impressum/DSE einfügen
 
 Animationen:
   ✔ Scroll-Down Arrow in Home-Section @done(23-04-16 16:24)
