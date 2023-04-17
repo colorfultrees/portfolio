@@ -10,6 +10,7 @@ import { SectionSkillsComponent } from './components/section-skills/section-skil
 import { SectionProjectsComponent } from './components/section-projects/section-projects.component';
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { ProjectComponent } from './components/project/project.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProjectComponent } from './components/project/project.component';
     SectionSkillsComponent,
     SectionProjectsComponent,
     SectionAboutComponent,
-    ProjectComponent
+    ProjectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

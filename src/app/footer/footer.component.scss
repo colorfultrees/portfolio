@@ -1,0 +1,33 @@
+@import 'src/styles/variables.scss';
+
+#content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: $content-margin;
+    margin-right: $content-margin;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    #legals {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        p {
+            font-size: 14px;
+            line-height: 19px;
+            color: $color-minor_dark;
+            margin: 0;
+        }
+    }
+
+    #contact-links {
+        display: flex;
+        gap: 50px;
+
+        img {
+            height: 40px;
+        }
+    }
+}
