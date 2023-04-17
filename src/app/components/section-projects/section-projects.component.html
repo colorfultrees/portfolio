@@ -1,67 +1,10 @@
-<h2 class="section-title">Projects</h2>
-<div id="project-list">
-    <app-project
-        *ngFor="let project of prList; let i = index"
-        [projectItem]="project"
-        [revers]="i % 2 == 0 ? false : true">
-    </app-project>
-        <!-- [name]="projects.NAME[0]"
-        [description]="projects.DESCRIPTION[0]"
-        [technologies]="projects.TECHNOLOGIES[0]"
-        [imgUrl]="projects.IMG_URL[0]['url']"
-        [imgAltTxt]="projects.IMG_URL[0]['alt']"
-        [revers]="false"></app-project> -->
-        <!-- <app-project 
-        [name]="projects.NAME[1]"
-        [description]="projects.DESCRIPTION[1]"
-        [technologies]="projects.TECHNOLOGIES[1]"
-        [imgUrl]="projects.IMG_URL[1]['url']"
-        [imgAltTxt]="projects.IMG_URL[1]['alt']"
-        [revers]="true"></app-project>
-        <app-project 
-        [name]="projects.NAME[2]"
-        [description]="projects.DESCRIPTION[2]"
-        [technologies]="projects.TECHNOLOGIES[2]"
-        [imgUrl]="projects.IMG_URL[2]['url']"
-        [imgAltTxt]="projects.IMG_URL[2]['alt']"
-        [revers]="false"></app-project> -->
-    <!-- <div class="project">
-        <img src="" alt="">
-        <div class="proj-desc">
-            <h2>Project 1</h2>
-            <ul class="technologies">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?</p>
-        </div>
+<div id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div id="project-list">
+        <app-project
+            *ngFor="let project of prList; let i = index"
+            [projectItem]="project"
+            [revers]="i % 2 == 0 ? false : true">
+        </app-project>
     </div>
-    <div class="project revers">
-        <img src="" alt="">
-        <div class="proj-desc right-align">
-            <h2>Project 2</h2>
-            <ul class="technologies">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>OOP</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?</p>
-        </div>
-    </div>
-    <div class="project">
-        <img src="" alt="">
-        <div class="proj-desc">
-            <h2>Project 3</h2>
-            <ul class="technologies">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>Typescript</li>
-                <li>Angular</li>
-                <li>Firebase</li>
-            </ul>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?</p>
-        </div>
-    </div> -->
 </div>

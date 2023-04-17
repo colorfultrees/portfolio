@@ -22,10 +22,14 @@ section {
     img {
         // margin-right: 20%;
         // margin-left: 100px;
-        width: 78%;
+        width: 73%;
         height: 100%;
-        filter: blur(20px);
-        -webkit-filter: blur(20px);
+
+        // --- ONLY FOR DEV
+        filter: blur(10px);
+        -webkit-filter: blur(10px);
+        // --- ONLY FOR DEV
+
         object-fit: cover;
     }
 }
