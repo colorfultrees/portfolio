@@ -11,6 +11,8 @@ import { SectionProjectsComponent } from './components/section-projects/section-
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { ProjectComponent } from './components/project/project.component';
 import { FooterComponent } from './footer/footer.component';
+import { LegalsComponent } from './legals/legals.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { FooterComponent } from './footer/footer.component';
     SectionProjectsComponent,
     SectionAboutComponent,
     ProjectComponent,
-    FooterComponent
+    FooterComponent,
+    LegalsComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

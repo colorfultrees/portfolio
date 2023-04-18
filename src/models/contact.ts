@@ -1,7 +1,7 @@
 export const contactData = {
     name: 'Christof Mark',
     address: {
-        street: 'Im Strüdlein 3',
+        street: 'Im Str&uuml;dlein 3',
         city: 'Schwebheim',
         zip: 97525
     },
