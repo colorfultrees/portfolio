@@ -12,7 +12,10 @@ Allgemein:
   ☐ E-Mail-Adresse von eigener Domain verwenden?
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
   ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
-  ☐ Impressum & Datenschutz
+  Impressum & Datenschutz:
+    ✔ Inhalte erstellen (z. B. über eRecht24) @done(23-04-18 20:59)
+    ☐ CSS definieren
+  ☐ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
