@@ -5,12 +5,21 @@ header {
     display: flex;
     justify-content: flex-end;
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
 }
 
 #content {
     width: $bg-box_width-ratio;
     background-color: $color-minor_light;
-    padding: 60px 0px 52px 65px;
+    padding-left:65px;
+    padding-right: 50px;
+    height: $content-header_height;
+    display: flex;
+    align-items: center;
 
     a {
         text-decoration: none;

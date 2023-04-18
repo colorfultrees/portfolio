@@ -1,7 +1,8 @@
 @import 'src/styles/variables.scss';
 
-#section-home {
+#home {
     height: calc(100vh - $content-header_height);
+    margin-top: $content-header_height;
 }
 
 section {

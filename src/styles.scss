@@ -35,6 +35,16 @@ body {
     font-family: 'Poppins', 'sans-serif';
     font-size: 18px;
     margin: 0;
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-padding: $content-header_height 0 0 0;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: $content-header_height;
+    margin-top: -$content-header_height;
 }
 
 h1 {
