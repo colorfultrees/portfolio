@@ -3,12 +3,15 @@ Allgemein:
   ✔ Kontaktdaten in eigener Datei verwalten (contact.ts) @done(23-04-13 15:30)
   ✔ Datenvalidierung und Warnmeldung für Eingabefelder implementieren @started(23-04-14 15:06) @done(23-04-14 17:53) @lasted(2h47m5s)
   ✔ E-Mail-Versand bestätigen (Pop-up) @done(23-04-15 22:11)
-  ☐ Bestätigungsmail an Absender (Option)
-  ☐ Texte schreiben
+  ☐ ?Bestätigungsmail an Absender (Option)
+  ☐ "About Me"-Text entwerfen
+  Abschnitt "Projekte":
+    ☐ Projektbeschreibungen
+    ☐ Projektillustrationen
   ☐ Portrait(s) einbinden
   ☐ E-Mail-Adresse von eigener Domain verwenden?
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
-  ☐ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!)
+  ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
   ☐ Impressum & Datenschutz
 
 Design:
@@ -30,5 +33,5 @@ Animationen:
   ✔ Hover-Effekt auf Skill-Icon @done(23-04-13 20:30)
   ✔ Hover-Effekt auf Send-Btn @done(23-04-13 16:00)
   ✔ Hover-Effekt auf Menü-Einträge @done(23-04-16 17:06)
-  ☐ "Lazy Loading" für Projekt-Einträge
+  ☐ "Lazy Loading" für Projekt-Einträge (Library: Animate on scroll)
   ☐ ggf. "Lazy Loading" für weitere Elemente, z. B. Kontaktfelder, Skills, ...
