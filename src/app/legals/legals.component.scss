@@ -1,0 +1,36 @@
+@import 'src/styles/variables.scss';
+
+#legals-content {
+    margin: $content-header_height $content-margin 0;
+    max-width: $content_max-width;
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 20px;
+        color: $color-minor_dark3;
+    }
+
+    h4 {
+        font-size: 18px;
+        color: $color-minor_dark2;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 5px;
+        margin-bottom: 30px;
+    }
+
+    li {
+        font-size: 16px;
+        color: $color-minor_dark;
+    }
+}
