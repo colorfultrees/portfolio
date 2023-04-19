@@ -2,7 +2,7 @@
 
 .project {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     align-items: center;
     gap: 80px;
 
@@ -35,25 +35,23 @@
     }
 
     .try-it-btns {
-        $border: 1px solid $color-minor_dark;
-
+        // width: 100%;
         display: flex;
-        justify-content: space-around;
-        width: 100%;
+        gap: 50px;
 
         a {
             text-decoration: none;
-            color: inherit;
+            color: $color-minor_medium;
             padding: 8px 16px;
+            border-bottom: 2px solid $color-minor_medium;
+            border-top-right-radius: 10px;
+            display: flex;
+            align-items: center;
+            transition: all 230ms ease;
 
-            &:first-child {
-                border-left: $border;
-                border-bottom: $border;
-            }
-    
-            &:last-child {
-                border-right: $border;
-                border-top: $border;
+            &:hover {
+                color: $color-minor_dark;
+                background-color: $color-minor_light;
             }
         }
     }
