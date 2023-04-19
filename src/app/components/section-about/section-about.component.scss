@@ -7,10 +7,14 @@ img {
     object-position: center;
 }
 
-span {
+span, a {
     color: $color-minor_dark2;
     font-size: 18px;
     line-height: 27px;
+}
+
+a {
+    text-decoration: none;
 }
 
 #layout {

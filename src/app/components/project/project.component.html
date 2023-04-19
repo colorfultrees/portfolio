@@ -6,5 +6,9 @@
             <li *ngFor="let tech of projectItem.TECHNOLOGIES">{{ tech }}</li>
         </ul>
         <p>{{ projectItem.DESCRIPTION }}</p>
+        <div class="try-it-btns">
+            <a href="{{ projectItem.APP_REF.URL }}" target="_blank">Try It</a>
+            <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">&lt;&sol;Code&gt;</a>
+        </div>
     </div>
 </div>

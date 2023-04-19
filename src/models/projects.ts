@@ -3,48 +3,70 @@ interface ImgRef {
     ALT: string
 }
 
+interface AppRef {
+    URL: string,
+    GIT: string
+}
+
 interface Project {
     NAME: string,
     DESCRIPTION: string,
     TECHNOLOGIES: Array<string>,
-    IMG_REF: ImgRef
+    IMG_REF: ImgRef,
+    APP_REF: AppRef
 }
 
 export const projects: Array<Project> = [
     {
         NAME: 'Pokédex',
-        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
-        TECHNOLOGIES: ['HTML', 'CSS', 'Javascript', 'API'],
+        DESCRIPTION: 'A javascript based pokédex using REST API.',
+        TECHNOLOGIES: ['HTML', 'CSS', 'Bootstrap' ,'Javascript', 'API'],
         IMG_REF: {
             URL: '',
             ALT: 'Screenshot from Pokédex'
+        },
+        APP_REF: {
+            URL: 'https://christof-mark.developerakademie.net/pokedex', // Update URL to own server space
+            GIT: 'https://github.com/colorfultrees/pokedex'
         }
     },
     {
         NAME: 'JOIN',
-        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        DESCRIPTION: 'A Kanban Project Management App. Create Tasks, assign users and categories, and change task status by simply using drag-and-drop.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript'],
         IMG_REF: {
             URL: '',
             ALT: 'Screenshot from JOIN'
+        },
+        APP_REF: {
+            URL: 'https://christof-mark.developerakademie.net/join_app/join', // Update URL to own server space
+            GIT: 'https://github.com/colorfultrees/join'
         }
     },
     {
         NAME: 'El Pollo Loco',
-        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
+        DESCRIPTION: 'A funny jump and run game. Help Pepe to fight against crazy chickens, collect salsa bottles and defeat Señora Gallina, the crazy giant chicken.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript', 'OOP'],
         IMG_REF: {
             URL: '',
             ALT: 'Screenshot from El Pollo Loco'
-        } 
+        } ,
+        APP_REF: {
+            URL: 'https://christof-mark.developerakademie.net/el-pollo-loco', // Update URL to own server space
+            GIT: 'https://github.com/colorfultrees/el-pollo-loco'
+        }
     },
     {
-        NAME: 'getConn',
-        DESCRIPTION: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quo eligendi incidunt eveniet error ab nostrum nesciunt eum doloremque sint. Eum atque ducimus suscipit corporis quos? Sapiente nisi animi assumenda?',
-        TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Firebase'],
+        NAME: 'gaggler',
+        DESCRIPTION: 'A clone of the popular messenger app Slack. Send messages to your friends and colleagues, either in a group channel or as a private message.',
+        TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Material', 'Firebase'],
         IMG_REF: {
             URL: '',
-            ALT: 'Screenshot from getConn'
-        } 
+            ALT: 'Screenshot from gaggler'
+        },
+        APP_REF: {
+            URL: 'https://christof-mark.developerakademie.net/slack-clone', // Update URL to own server space
+            GIT: 'https://github.com/colorfultrees/slack-clone'
+        }
     }
 ]

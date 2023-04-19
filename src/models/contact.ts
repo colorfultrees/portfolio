@@ -6,8 +6,8 @@ export const contactData = {
         zip: 97525
     },
     phone: {
-        landline: '+49 (0)9723 93 80 686',
-        mobile: '+49 (0)162 789 10 37'
+        landline: {display: '+49 (0)9723 93 80 686', link: '+4997239380686'},
+        mobile: {display: '+49 (0)162 789 10 37', link: '+491627891037'}
     },
     email: 'cpmark@gmx.de',
     repo: 'https://github.com/colorfultrees',
