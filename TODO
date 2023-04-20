@@ -13,6 +13,8 @@ Allgemein:
     ✔ Inhalte erstellen (z. B. über eRecht24) @done(23-04-18 20:59)
     ✔ CSS definieren @done(23-04-19 15:32)
   ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
+  ☐ "Back to top"-Buttons (Main + Legals)
+  ☐ Reload von Legals schlägt fehl --> mit Dennis besprechen
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
