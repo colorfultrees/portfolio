@@ -7,6 +7,7 @@ import { Component, HostListener } from '@angular/core';
 })
 export class HeaderComponent {
   pageScrolled = false;
+  mobileMenuActive = false;
 
   @HostListener('window:scroll', []) onWindowScroll() {
     const header = document.getElementById('header') as HTMLDivElement;
@@ -16,5 +17,9 @@ export class HeaderComponent {
         document.body.scrollTop ||
         0;
     verticalOffset > 0 ? this.pageScrolled = true : this.pageScrolled = false;
+  }
+
+  toggleMobileMenu() {
+    this.mobileMenuActive = !this.mobileMenuActive;
   }
 }

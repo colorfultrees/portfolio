@@ -31,8 +31,9 @@
             </li>
         </ul>
     </div>
+
     <!-- // Hamburger icon -->
-    <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden">
+    <input type="checkbox" id="checkbox1" class="checkbox1 visuallyHidden" [(ngModel)]="mobileMenuActive">
     <label for="checkbox1">
         <div class="hamburger hamburger1">
             <span class="bar bar1"></span>
@@ -42,4 +43,14 @@
         </div>
     </label>
     <!-- Hamburger icon // -->
+
+    <!-- // Mobile menu  -->
+    <div id="mobile-menu" [ngClass]="mobileMenuActive ? 'mobile-menu-active' : 'mobile-menu-hidden'">
+        <a routerLink="/" (click)="toggleMobileMenu()">HOME</a>
+        <a href="#skills" (click)="toggleMobileMenu()">SKILLS</a>
+        <a href="#projects" (click)="toggleMobileMenu()">PROJECTS</a>
+        <a href="#about" (click)="toggleMobileMenu()">ABOUT ME</a>
+        <a href="#contact" (click)="toggleMobileMenu()">CONTACT</a>
+    </div>
+    <!-- Mobile menu // -->
 </header>
