@@ -1,6 +1,12 @@
 @import 'src/styles/variables.scss';
 
+#page-content {
+    position: relative;
+    width: 100%;
+}
+
 #legals-content {
+    position: relative;
     margin: $content-header_height $content-margin 0;
     max-width: $content_max-width;
 
@@ -33,4 +39,14 @@
         font-size: 16px;
         color: $color-minor_dark;
     }
+}
+
+#back-to-top {
+    position: relative;
+    bottom: 20px;
+    right: 0px;
+    margin-top: 20px;
+    left: 0px;
+    margin: 0 20px 0 auto;
+    width: fit-content;
 }

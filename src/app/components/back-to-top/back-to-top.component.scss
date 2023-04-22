@@ -1,0 +1,36 @@
+@import 'src/styles/variables.scss';
+
+#back-to-top-btn {
+    $arrow-width: 34px;
+    $arrow-height: 17px;
+    $btn-size: $arrow-width + 17px;
+
+    // position: absolute;
+    // bottom: 30px;
+    // right: 20px;
+    width: $btn-size;
+    height: $btn-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba($color-minor_light, 0.5);
+    box-shadow: 0 5px 5px 0 rgba($color-minor_dark2, 0.5);
+    cursor: pointer;
+    transition: transform 125ms ease-out;
+
+    #arrow-up {
+        width: $arrow-width;
+        height: $arrow-height;
+    
+        path {
+            stroke: $color-minor_dark;
+            fill: transparent;
+            stroke-width: 2px;
+        }
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+}

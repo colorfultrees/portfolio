@@ -9,12 +9,12 @@ Allgemein:
   ☐ E-Mail-Adresse von eigener Domain verwenden?
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
   ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
+  ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
+  ✔ "Back to top"-Buttons (Main + Legals) @done(23-04-22 21:56)
+  ✔ Reload von Legals schlägt fehl --> mit Dennis besprechen @done(23-04-22 16:32)
   Impressum & Datenschutz:
     ✔ Inhalte erstellen (z. B. über eRecht24) @done(23-04-18 20:59)
     ✔ CSS definieren @done(23-04-19 15:32)
-  ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
-  ☐ "Back to top"-Buttons (Main + Legals)
-  ✔ Reload von Legals schlägt fehl --> mit Dennis besprechen @done(23-04-22 16:32)
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
@@ -24,12 +24,12 @@ Design:
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
+  ☐ Logo für favicon
+  ☐ Logo in footer?
   Footer:
     ✔ Footer erstellen @done(23-04-17 18:58)
     ☐ Link zu Xing einfügen
     ✔ Link zu Impressum/DSE einfügen @done(23-04-18 21:01)
-  ☐ Logo für favicon
-  ☐ Logo in footer?
 
 Animationen:
   ✔ Scroll-Down Arrow in Home-Section @done(23-04-16 16:24)
@@ -43,5 +43,5 @@ Animationen:
 Abschnitt "Projekte":
   ✔ Projektbeschreibungen @done(23-04-20 17:30)
   ☐ Projektillustrationen
-  ☐ Slack-Clone: Name in App (z. B. "gaggler") 
+  ☐ Slack-Clone: Name in App ändern (z. B. "gaggler") 
   ☐ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace)

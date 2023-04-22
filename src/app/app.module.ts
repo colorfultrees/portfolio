@@ -13,6 +13,7 @@ import { ProjectComponent } from './components/project/project.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { LegalsComponent } from './components/legals/legals.component';
 import { MainComponent } from './components/main/main.component';
+import { BackToTopComponent } from './components/back-to-top/back-to-top.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MainComponent } from './components/main/main.component';
     ProjectComponent,
     FooterComponent,
     LegalsComponent,
-    MainComponent
+    MainComponent,
+    BackToTopComponent
   ],
   imports: [
     BrowserModule,
