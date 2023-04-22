@@ -14,13 +14,13 @@ Allgemein:
     ✔ CSS definieren @done(23-04-19 15:32)
   ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
   ☐ "Back to top"-Buttons (Main + Legals)
-  ☐ Reload von Legals schlägt fehl --> mit Dennis besprechen
+  ✔ Reload von Legals schlägt fehl --> mit Dennis besprechen @done(23-04-22 16:32)
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
   ✔ Schatten unter Header nach Scrollbeginn @done(23-04-20 17:00)
   ✔ Hamburger-Menü in Header für Mobilansicht @done(23-04-20 20:00)
-  ☐ Sidebar für Mobilansicht
+  ✔ Sidebar für Mobilansicht @done(23-04-22 16:11)
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
