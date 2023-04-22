@@ -10,9 +10,9 @@ import { SectionSkillsComponent } from './components/section-skills/section-skil
 import { SectionProjectsComponent } from './components/section-projects/section-projects.component';
 import { SectionAboutComponent } from './components/section-about/section-about.component';
 import { ProjectComponent } from './components/project/project.component';
-import { FooterComponent } from './footer/footer.component';
-import { LegalsComponent } from './legals/legals.component';
-import { MainComponent } from './main/main.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { LegalsComponent } from './components/legals/legals.component';
+import { MainComponent } from './components/main/main.component';
 
 @NgModule({
   declarations: [
