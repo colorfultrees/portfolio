@@ -16,7 +16,7 @@ export class ContactFormComponent {
    * @param form - The form itself
    */
   async commitForm(data: any, form: NgForm) {
-    // await this.sendMail(data);
+    await this.sendMail(data);
     this.hasMailSent = true;
     setTimeout(() => {
       this.hasMailSent = false;
