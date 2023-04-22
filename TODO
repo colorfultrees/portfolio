@@ -18,8 +18,8 @@ Allgemein:
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
-  ☐ Schatten unter Header nach Scrollbeginn
-  ☐ Hamburger-Menü in Header für Mobilansicht
+  ✔ Schatten unter Header nach Scrollbeginn @done(23-04-20 17:00)
+  ✔ Hamburger-Menü in Header für Mobilansicht @done(23-04-20 20:00)
   ☐ Sidebar für Mobilansicht
   ☐ Responsive Design
   ✔ Favicon erstellen @done(23-04-15 22:12)
@@ -33,7 +33,7 @@ Design:
 
 Animationen:
   ✔ Scroll-Down Arrow in Home-Section @done(23-04-16 16:24)
-  ☐ Hamburger-Menü
+  ✔ Hamburger-Menü @done(23-04-20 20:00)
   ✔ Hover-Effekt auf Skill-Icon @done(23-04-13 20:30)
   ✔ Hover-Effekt auf Send-Btn @done(23-04-13 16:00)
   ✔ Hover-Effekt auf Menü-Einträge @done(23-04-16 17:06)
@@ -41,7 +41,7 @@ Animationen:
   ☐ ggf. "Lazy Loading" für weitere Elemente, z. B. Kontaktfelder, Skills, ...
 
 Abschnitt "Projekte":
-  ☐ Projektbeschreibungen
+  ✔ Projektbeschreibungen @done(23-04-20 17:30)
   ☐ Projektillustrationen
-  ☐ Slack-Clone: Name in App ändern zu "gaggler"
+  ☐ Slack-Clone: Name in App (z. B. "gaggler") 
   ☐ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace)

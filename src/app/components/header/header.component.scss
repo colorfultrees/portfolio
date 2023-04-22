@@ -60,7 +60,7 @@ a {
 }
 
 
-// Hamburger icon ---
+// Hamburger icon____
 // #hamburger-icon {
 //     position: absolute;
 //     // height: 100%;
@@ -143,9 +143,10 @@ a {
     width: 41px;
 }
 
-// --- Hmaburger icon
+// ____Hamburger icon
 
-// Mobile menu ---
+
+// Mobile menu____
 #mobile-menu {
     position: absolute;
     top: calc($content-header_height + 10px);
@@ -186,8 +187,17 @@ a {
 }
 
 .mobile-menu-hidden {
-    transition: height 300ms ease-out, right 180ms ease-out 350ms;
+    transition: right 85ms ease-in, height 10ms 85ms;
     right: -160px;
     height: 8px;
 }
-// --- Mobile menu
+
+#menu-backdrop {
+    // background-color: brown;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+// ____Mobile menu

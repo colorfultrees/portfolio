@@ -45,6 +45,7 @@
     <!-- Hamburger icon // -->
 
     <!-- // Mobile menu  -->
+    <div id="menu-backdrop" *ngIf="mobileMenuActive" (click)="toggleMobileMenu()"></div>
     <div id="mobile-menu" [ngClass]="mobileMenuActive ? 'mobile-menu-active' : 'mobile-menu-hidden'">
         <a routerLink="/" (click)="toggleMobileMenu()">HOME</a>
         <a href="#skills" (click)="toggleMobileMenu()">SKILLS</a>
