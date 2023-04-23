@@ -39,7 +39,11 @@
         font-size: 16px;
         color: $color-minor_dark;
     }
-}
+
+    @media screen and (max-width: $bp-2) {
+        margin-top: $content-header_height_small;
+    }
+} // ____#legals-content
 
 #back-to-top {
     position: relative;

@@ -49,12 +49,17 @@ body {
     display: block;
     height: $content-header_height;
     margin-top: -$content-header_height;
+
+    @media screen and (max-width: $bp-2) {
+        height: $content-header_height_small;
+        margin-top: -$content-header_height_small;
+    }
 }
 
 h1 {
     @include headline-font();
     @include headline-layout();
-    font-size: 80px;
+    font-size: clamp(67px, 7.2vw, 80px);// 80px;
     color: $text_page-title
 }
 

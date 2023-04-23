@@ -3,6 +3,7 @@ $content_max-width: 1440px;
 $bg-box_width-ratio: 78%; // screen width: 1440px --> width: 1120px
 $content-margin: 8.33%; // screen width: 1440px --> margin: 120px
 $content-header_height: 130px;
+$content-header_height_small: 73px;
 $section-home_height: 680px;
 $section_margin-top: 100px;
 
@@ -18,3 +19,7 @@ $color-minor_dark: #6D6D6D;
 $color-minor_dark2: #2E2E2E;
 $color-minor_dark3: #0D0D0C;
 $bg-btn: #0F0F10;
+
+// Breakpoints
+$bp-1: 1200px;
+$bp-2: 925px;

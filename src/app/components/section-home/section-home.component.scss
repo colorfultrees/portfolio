@@ -3,12 +3,22 @@
 #home {
     height: calc(100vh - $content-header_height);
     margin-top: $content-header_height;
+
+    @media screen and (max-width: $bp-2) {
+        height: calc(100vh - $content-header_height_small);
+        margin-top: $content-header_height_small;
+    }
 }
 
 section {
     position: relative;
     height: 77vh;
     max-height: $section-home_height;
+
+    @media screen and (max-width: $bp-2) {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 #img-box {
@@ -25,15 +35,20 @@ section {
         // margin-left: 100px;
         width: 73%;
         height: 100%;
-
-        // --- ONLY FOR DEV
-        filter: blur(10px);
-        -webkit-filter: blur(10px);
-        // --- ONLY FOR DEV
-
         object-fit: cover;
+        object-position: 50% 0%;
+
+        @media screen and (max-width: $bp-2) {
+            width: 100%;
+        }
     }
-}
+
+    @media screen and (max-width: $bp-2) {
+        position: relative;
+        max-height: 380px;
+        width: 100%;
+    }
+} // ____#img-box
 
 #info-box {
     display: flex;
@@ -50,15 +65,24 @@ section {
 
     #job-title {
         margin-top: 80px;
-        padding: 40px 100px 40px 30px;
+        padding: 40px clamp(40px, calc((0.375 * 100vw) - 312.5px), 100px) 40px 30px;
         font-size: 24px;
         font-weight: 500;
         letter-spacing: 0.2em;
         background-color: $color-main;
         width: max-content;
         text-align: center;
+
+        @media screen and (max-width: $bp-2) {
+            margin-top: 20px;
+            padding: 30px 100px 30px 40px;
+        }
     }
-}
+
+    @media screen and (max-width: $bp-2) {
+        margin-top: -150px;
+    }
+} // ____#info-box
 
 // .arrows {
 //     position: absolute;
