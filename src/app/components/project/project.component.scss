@@ -6,10 +6,38 @@
     align-items: center;
     gap: 80px;
 
-    img {
+    .img-container {
+        position: relative;
         min-width: 45.8%; // screen width: 1440 --> width: 660px
-        height: 400px; // ONLY FOR TESTING
-        background-color: gray; // ONLY FOR TESTING
+
+        // ONLY FOR TESTING
+        height: 400px;
+        background-color: gray;
+
+        img {
+            object-fit: cover;
+        }
+
+        .try-it-btns-resp {
+            position: absolute;
+            bottom: 20px;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-evenly;
+
+            a {
+                text-decoration: none;
+                color: black;
+                background-color: rgba($color-minor_medium, 0.7);
+                padding: 8px 16px;
+                transition: background-color 230ms ease;
+
+                &:hover {
+                    background-color: rgba($color-main, 0.7);
+                }
+            }
+        }
     }
 
     .proj-desc {
