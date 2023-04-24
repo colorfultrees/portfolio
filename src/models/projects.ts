@@ -57,16 +57,16 @@ export const projects: Array<Project> = [
         }
     },
     {
-        NAME: 'gaggler',
-        DESCRIPTION: 'A clone of the popular messenger app Slack. Send messages to your friends and colleagues, either in a group channel or as a private message.',
+        NAME: 'Cynapse',
+        DESCRIPTION: 'A clone of the popular messenger app Slack. Send messages to your friends and colleagues, either in a group channel or in a private chat.',
         TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Material', 'Firebase'],
         IMG_REF: {
             URL: '',
-            ALT: 'Screenshot from gaggler'
+            ALT: 'Screenshot from Cynapse'
         },
         APP_REF: {
-            URL: 'https://christof-mark.developerakademie.net/slack-clone', // Update URL to own server space
-            GIT: 'https://github.com/colorfultrees/slack-clone'
+            URL: 'https://christof-mark.developerakademie.net/cynapse', // Update URL to own server space
+            GIT: 'https://github.com/colorfultrees/cynapse'
         }
     }
 ]

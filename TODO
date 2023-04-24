@@ -21,7 +21,7 @@ Design:
   ✔ Schatten unter Header nach Scrollbeginn @done(23-04-20 17:00)
   ✔ Hamburger-Menü in Header für Mobilansicht @done(23-04-20 20:00)
   ✔ Sidebar für Mobilansicht @done(23-04-22 16:11)
-  ☐ Responsive Design
+  ☐ Responsive Design @started(23-04-23 11:30)
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
   ☐ Logo für favicon
@@ -43,5 +43,5 @@ Animationen:
 Abschnitt "Projekte":
   ✔ Projektbeschreibungen @done(23-04-20 17:30)
   ☐ Projektillustrationen
-  ☐ Slack-Clone: Name in App ändern (z. B. "gaggler") 
+  ✔ Slack-Clone: Name in App ändern (z. B. "gaggler") --> Neuer Name: Cynapse @done(23-04-24 16:07)
   ☐ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace)

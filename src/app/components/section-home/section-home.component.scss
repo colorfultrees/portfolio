@@ -61,6 +61,14 @@ section {
         margin-left: 30px;
         margin-top: 50px;
         text-shadow: 0 0 5px $color-minor_light;
+
+        @media screen and (max-width: $bp-home-1) {
+            font-size: 50px;
+        }
+
+        @media screen and (max-width: $bp-home-2) {
+            font-size: 40px;
+        }
     }
 
     #job-title {
@@ -77,10 +85,42 @@ section {
             margin-top: 20px;
             padding: 30px 100px 30px 40px;
         }
+
+        @media screen and (max-width: $bp-home-1) {
+            padding-right: 40px;
+        }
+
+        @media screen and (max-width: $bp-home-2) {
+            font-size: 18px;
+        }
+
+        @media screen and (max-width: $bp-home-3) {
+            padding-right: 0px;
+            padding-left: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+
+        @media screen and (max-width: $bp-home-4) {
+            letter-spacing: 0.1em;
+        }
     }
 
     @media screen and (max-width: $bp-2) {
         margin-top: -150px;
+    }
+
+    @media screen and (max-width: $bp-home-1) {
+        margin-top: -126px;
+    }
+
+    @media screen and (max-width: $bp-home-2) {
+        margin-top: -110px;
+    }
+
+    @media screen and (max-width: $bp-home-3) {
+        margin-left: 0px;
     }
 } // ____#info-box
 
