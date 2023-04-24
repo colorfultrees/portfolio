@@ -22,7 +22,7 @@ export const projects: Array<Project> = [
         DESCRIPTION: 'A javascript based pokédex using REST API.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Bootstrap' ,'Javascript', 'API'],
         IMG_REF: {
-            URL: '',
+            URL: 'assets/img/pokedex.jpg',
             ALT: 'Screenshot from Pokédex'
         },
         APP_REF: {
@@ -35,7 +35,7 @@ export const projects: Array<Project> = [
         DESCRIPTION: 'A Kanban Project Management App. Create Tasks, assign users and categories, and change task status by simply using drag-and-drop.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript'],
         IMG_REF: {
-            URL: '',
+            URL: 'assets/img/join.jpg',
             ALT: 'Screenshot from JOIN'
         },
         APP_REF: {
@@ -48,7 +48,7 @@ export const projects: Array<Project> = [
         DESCRIPTION: 'A funny jump and run game. Help Pepe to fight against crazy chickens, collect salsa bottles and defeat Señora Gallina, the crazy giant chicken.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript', 'OOP'],
         IMG_REF: {
-            URL: '',
+            URL: 'assets/img/el-pollo-loco.jpg',
             ALT: 'Screenshot from El Pollo Loco'
         } ,
         APP_REF: {
@@ -61,7 +61,7 @@ export const projects: Array<Project> = [
         DESCRIPTION: 'A clone of the popular messenger app Slack. Send messages to your friends and colleagues, either in a group channel or in a private chat.',
         TECHNOLOGIES: ['HTML', 'SCSS', 'Typescript', 'Angular', 'Material', 'Firebase'],
         IMG_REF: {
-            URL: '',
+            URL: 'assets/img/cynapse.jpg',
             ALT: 'Screenshot from Cynapse'
         },
         APP_REF: {
