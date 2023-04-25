@@ -1,4 +1,4 @@
-<div class="project" [class.revers]="revers">
+<div class="project" [class.revers]="revers && width >= MAX_WIDTH">
     <div class="img-container">
         <img src="{{ projectItem.IMG_REF.URL }}" alt="{{ projectItem.IMG_REF.ALT}}">
         <div class="try-it-btns-resp">
@@ -6,9 +6,9 @@
             <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">View Code</a>
         </div>
     </div>
-    <div class="proj-desc" [class.align-right]="revers">
-        <h4>{{ projectItem.NAME }}</h4>
-        <ul class="technologies" [class.justify-right]="revers">
+    <div class="proj-desc" [class.align-right]="revers && width >= MAX_WIDTH">
+        <div class="proj-title"><h4>{{ projectItem.NAME }}</h4><span *ngIf="projectItem.TEAM" class="teamwork">Teamwork</span></div>
+        <ul class="technologies" [class.justify-right]="revers && width >= MAX_WIDTH">
             <li *ngFor="let tech of projectItem.TECHNOLOGIES">{{ tech }}</li>
         </ul>
         <p>{{ projectItem.DESCRIPTION }}</p>

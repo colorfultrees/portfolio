@@ -13,7 +13,8 @@ interface Project {
     DESCRIPTION: string,
     TECHNOLOGIES: Array<string>,
     IMG_REF: ImgRef,
-    APP_REF: AppRef
+    APP_REF: AppRef,
+    TEAM: boolean
 }
 
 export const projects: Array<Project> = [
@@ -28,7 +29,8 @@ export const projects: Array<Project> = [
         APP_REF: {
             URL: 'https://christof-mark.developerakademie.net/pokedex', // Update URL to own server space
             GIT: 'https://github.com/colorfultrees/pokedex'
-        }
+        },
+        TEAM: false
     },
     {
         NAME: 'JOIN',
@@ -41,7 +43,8 @@ export const projects: Array<Project> = [
         APP_REF: {
             URL: 'https://christof-mark.developerakademie.net/join_app/join', // Update URL to own server space
             GIT: 'https://github.com/colorfultrees/join'
-        }
+        },
+        TEAM: true
     },
     {
         NAME: 'El Pollo Loco',
@@ -54,7 +57,8 @@ export const projects: Array<Project> = [
         APP_REF: {
             URL: 'https://christof-mark.developerakademie.net/el-pollo-loco', // Update URL to own server space
             GIT: 'https://github.com/colorfultrees/el-pollo-loco'
-        }
+        },
+        TEAM: false
     },
     {
         NAME: 'Cynapse',
@@ -67,6 +71,7 @@ export const projects: Array<Project> = [
         APP_REF: {
             URL: 'https://christof-mark.developerakademie.net/cynapse', // Update URL to own server space
             GIT: 'https://github.com/colorfultrees/cynapse'
-        }
+        },
+        TEAM: true
     }
 ]

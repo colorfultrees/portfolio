@@ -13,6 +13,11 @@
 .section-wrap {
     margin-left: $content-margin;
     margin-right: $content-margin;
+
+    @media screen and (max-width: $bp-proj-2) {
+        margin-left: $content-margin-small;
+        margin-right: $content-margin-small;
+    }
 }
 
 .section-divider {

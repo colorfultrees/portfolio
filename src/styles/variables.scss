@@ -2,6 +2,7 @@
 $content_max-width: 1440px;
 $bg-box_width-ratio: 78%; // screen width: 1440px --> width: 1120px
 $content-margin: 8.33%; // screen width: 1440px --> margin: 120px
+$content-margin-small: 5%;
 $content-header_height: 130px;
 $content-header_height_small: 73px;
 $section-home_height: 680px;
@@ -27,3 +28,5 @@ $bp-home-1: 635px;
 $bp-home-2: 560px;
 $bp-home-3: 445px;
 $bp-home-4: 370px;
+$bp-proj-1: 768px;
+$bp-proj-2: 625px;

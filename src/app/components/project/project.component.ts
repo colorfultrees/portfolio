@@ -13,4 +13,10 @@ export class ProjectComponent {
   // @Input() imgAltTxt: string = '';
   @Input() projectItem: any;
   @Input() revers: boolean = false;
+
+  MAX_WIDTH = 1200;
+
+  public get width() {
+    return window.innerWidth;
+  }
 }
