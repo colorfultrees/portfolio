@@ -1,10 +1,11 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 .content {
     position: relative;
     width: 100%;
-    padding: 78px $content-margin 120px;
-    background-color: $color-main;
+    padding: 78px variables.$content-margin 120px;
+    background-color: variables.$color-main;
     display: flex;
     justify-content: space-between;
 
@@ -15,7 +16,7 @@
     #contact-info {
         font-size: 16px;
         line-height: 27px;
-        color: $color-minor_dark2;
+        color: variables.$color-minor_dark2;
     }
 
     form {
@@ -31,7 +32,7 @@
             input, textarea {
                 font-family: 'Poppins', 'sans-serif';
                 font-size: 16px;
-                color: $color-minor_dark2;
+                color: variables.$color-minor_dark2;
                 outline: none;
                 border: none;
                 width: 100%;
@@ -86,20 +87,20 @@
 }
 
 .btn-enabled {
-    background-color: $bg-btn;
+    background-color: variables.$bg-btn;
     color: white;
     cursor: pointer;
 
     &:hover {
         transition: all 125ms ease-out;
-        background-color: $color-minor_dark2;
-        color: $color-main;
+        background-color: variables.$color-minor_dark2;
+        color: variables.$color-main;
     }
 }
 
 .btn-disabled {
-    background-color: $color-minor_dark;
-    color: $color-minor_medium;
+    background-color: variables.$color-minor_dark;
+    color: variables.$color-minor_medium;
     cursor: not-allowed;
 }
 

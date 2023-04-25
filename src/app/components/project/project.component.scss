@@ -1,5 +1,6 @@
 @use 'src/styles/mixins';
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 .project {
     display: flex;
@@ -31,33 +32,33 @@
             a {
                 text-decoration: none;
                 color: black;
-                background-color: rgba($color-minor_medium, 0.83);
+                background-color: rgba(variables.$color-minor_medium, 0.83);
                 padding: 8px 36px;
                 transition: background-color 230ms ease;
 
                 @include mixins.hover-supported() {
-                    background-color: rgba($color-main, 0.75);
+                    background-color: rgba(variables.$color-main, 0.75);
                 }
 
                 &:active {
-                    background-color: rgba($color-main, 0.75);
+                    background-color: rgba(variables.$color-main, 0.75);
                 }
             }
 
-            @media screen and (max-width: $bp-1) {
+            @media screen and (max-width: variables.$bp-1) {
                 display: flex;
             }
         }
 
-        @media screen and (max-width: $bp-1) {
+        @media screen and (max-width: variables.$bp-1) {
             height: 460px;
         }
 
-        @media screen and (max-width: $bp-proj-1) {
+        @media screen and (max-width: variables.$bp-proj-1) {
             height: 400px;
         }
 
-        @media screen and (max-width: $bp-proj-2) {
+        @media screen and (max-width: variables.$bp-proj-2) {
             height: 330px;
         }
     } // ____.img-container
@@ -95,7 +96,11 @@
             font-size: 16px;
             padding: 5px 10px;
             border-radius: 20px;
-            background-color: $color-main;
+            background-color: variables.$color-main;
+
+            @media screen and (max-width: variables.$bp-home-1) {
+                font-size: 14px;
+            }
         }
     }
 
@@ -106,30 +111,34 @@
 
         a {
             text-decoration: none;
-            color: $color-minor_medium;
+            color: variables.$color-minor_medium;
             padding: 8px 16px;
-            border-bottom: 2px solid $color-minor_medium;
+            border-bottom: 2px solid variables.$color-minor_medium;
             border-top-right-radius: 10px;
             display: flex;
             align-items: center;
             transition: all 230ms ease;
 
             &:hover {
-                color: $color-minor_dark;
-                background-color: $color-minor_light;
+                color: variables.$color-minor_dark;
+                background-color: variables.$color-minor_light;
             }
         }
 
-        @media screen and (max-width: $bp-1) {
+        @media screen and (max-width: variables.$bp-1) {
             display: none;
         }
     }
 
-    @media screen and (max-width: $bp-1) {
+    @media screen and (max-width: variables.$bp-1) {
         flex-direction: column;
         align-items: unset;
         max-width: 740px;
         margin: 0 auto;
+    }
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        gap: 50px
     }
 } // ____.project
 

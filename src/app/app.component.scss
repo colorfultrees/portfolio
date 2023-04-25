@@ -1,4 +1,5 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 // #section-home {
 //     display: block;
@@ -11,17 +12,17 @@
 // }
 
 .section-wrap {
-    margin-left: $content-margin;
-    margin-right: $content-margin;
+    margin-left: variables.$content-margin;
+    margin-right: variables.$content-margin;
 
-    @media screen and (max-width: $bp-proj-2) {
-        margin-left: $content-margin-small;
-        margin-right: $content-margin-small;
+    @media screen and (max-width: variables.$bp-proj-2) {
+        margin-left: variables.$content-margin-small;
+        margin-right: variables.$content-margin-small;
     }
 }
 
 .section-divider {
-    margin-top: $section_margin-top;
+    margin-top: variables.$section_margin-top;
 }
 
 .section-divider-thin {

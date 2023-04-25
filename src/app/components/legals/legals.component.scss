@@ -1,4 +1,5 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 #page-content {
     position: relative;
@@ -7,8 +8,8 @@
 
 #legals-content {
     position: relative;
-    margin: $content-header_height $content-margin 0;
-    max-width: $content_max-width;
+    margin: variables.$content-header_height variables.$content-margin 0;
+    max-width: variables.$content_max-width;
 
     h1 {
         font-size: 24px;
@@ -20,12 +21,12 @@
 
     h3 {
         font-size: 20px;
-        color: $color-minor_dark3;
+        color: variables.$color-minor_dark3;
     }
 
     h4 {
         font-size: 18px;
-        color: $color-minor_dark2;
+        color: variables.$color-minor_dark2;
     }
 
     p {
@@ -37,11 +38,11 @@
 
     li {
         font-size: 16px;
-        color: $color-minor_dark;
+        color: variables.$color-minor_dark;
     }
 
-    @media screen and (max-width: $bp-2) {
-        margin-top: $content-header_height_small;
+    @media screen and (max-width: variables.$bp-2) {
+        margin-top: variables.$content-header_height_small;
     }
 } // ____#legals-content
 

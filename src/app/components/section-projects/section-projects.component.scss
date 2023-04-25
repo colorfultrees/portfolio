@@ -1,7 +1,12 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 #project-list {
     display: flex;
     flex-direction: column;
     gap: 120px;
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        gap: 75px
+    }
 }

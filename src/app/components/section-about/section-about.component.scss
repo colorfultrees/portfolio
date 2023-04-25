@@ -1,4 +1,5 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 img {
     width: 100%;
@@ -8,7 +9,7 @@ img {
 }
 
 span, a {
-    color: $color-minor_dark2;
+    color: variables.$color-minor_dark2;
     font-size: 18px;
     line-height: 27px;
 }
@@ -27,7 +28,7 @@ a {
         display: flex;
         flex-direction: column;
         gap: 18px;
-        background-color: $color-main;
+        background-color: variables.$color-main;
         padding: 40px 133px 40px 40px;
         width: max-content;
         float: right;

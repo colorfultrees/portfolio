@@ -1,4 +1,5 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 #back-to-top-btn {
     $arrow-width: 34px;
@@ -14,8 +15,8 @@
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background-color: rgba($color-minor_light, 0.5);
-    box-shadow: 0 5px 5px 0 rgba($color-minor_dark2, 0.5);
+    background-color: rgba(variables.$color-minor_light, 0.5);
+    box-shadow: 0 5px 5px 0 rgba(variables.$color-minor_dark2, 0.5);
     cursor: pointer;
     transition: transform 125ms ease-out;
 
@@ -24,7 +25,7 @@
         height: $arrow-height;
     
         path {
-            stroke: $color-minor_dark;
+            stroke: variables.$color-minor_dark;
             fill: transparent;
             stroke-width: 2px;
         }

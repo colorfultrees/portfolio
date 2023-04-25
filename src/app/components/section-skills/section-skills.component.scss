@@ -1,4 +1,5 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 $transition: opacity 250ms ease-out;
 
@@ -45,7 +46,7 @@ $transition: opacity 250ms ease-out;
 
         &:hover {
             span {
-                color: $color-minor_dark;
+                color: variables.$color-minor_dark;
             }
 
             .ico-black {

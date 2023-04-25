@@ -1,5 +1,6 @@
+@use 'styles/variables';
 @import 'styles/fonts.scss';
-@import 'styles/variables.scss';
+// @import 'styles/variables.scss';
 
 @mixin headline-font {
     font-weight: 700;
@@ -21,14 +22,14 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: $color-minor_dark;
+    background-color: variables.$color-minor_dark;
     border-radius: 100vw;
 }
 
 * {
     box-sizing: border-box;
     scrollbar-width: thin !important;
-    scrollbar-color: $color-minor_dark white !important;
+    scrollbar-color: variables.$color-minor_dark white !important;
 }
 
 html {
@@ -41,18 +42,18 @@ body {
     margin: 0;
     max-height: 100vh;
     overflow-y: scroll;
-    scroll-padding: $content-header_height 0 0 0;
+    scroll-padding: variables.$content-header_height 0 0 0;
 }
 
 :target::before {
     content: "";
     display: block;
-    height: $content-header_height;
-    margin-top: -$content-header_height;
+    height: variables.$content-header_height;
+    margin-top: -(variables.$content-header_height);
 
-    @media screen and (max-width: $bp-2) {
-        height: $content-header_height_small;
-        margin-top: -$content-header_height_small;
+    @media screen and (max-width: variables.$bp-2) {
+        height: variables.$content-header_height_small;
+        margin-top: -(variables.$content-header_height_small);
     }
 }
 
@@ -60,28 +61,36 @@ h1 {
     @include headline-font();
     @include headline-layout();
     font-size: clamp(67px, 7.2vw, 80px);// 80px;
-    color: $text_page-title
+    color: variables.$text_page-title
 }
 
 h2 {
     @include headline-font();
     @include headline-layout();
     font-size: 60px;
-    color: $text_section-title;
+    color: variables.$text_section-title;
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        font-size: 44px;
+    }
 }
 
 h3 {
     @include headline-font();
     @include headline-layout();
     font-size: 45px;
-    color: $text_subtitle
+    color: variables.$text_subtitle
 }
 
 h4 {
     @include headline-font();
     @include headline-layout();
     font-size: 39px;
-    color: $color-minor_medium;
+    color: variables.$color-minor_medium;
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        font-size: 32px;
+    }
 }
 
 h5 {
@@ -89,17 +98,26 @@ h5 {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    color: $color-minor_medium2;
+    color: variables.$color-minor_medium2;
     opacity: 0.6;
 }
 
 p {
     line-height: 36px;
-    color: $color-minor_dark;
+    color: variables.$color-minor_dark;
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        font-size: 16px;
+        line-height: 28px;
+    }
 }
 
 .section-title {
     margin-bottom: 52px;
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        margin-bottom: 28px;
+    }
 }
 
 .shadow {

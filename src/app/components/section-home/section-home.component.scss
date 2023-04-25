@@ -1,21 +1,22 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 #home {
-    height: calc(100vh - $content-header_height);
-    margin-top: $content-header_height;
+    height: calc(100vh - variables.$content-header_height);
+    margin-top: variables.$content-header_height;
 
-    @media screen and (max-width: $bp-2) {
-        height: calc(100vh - $content-header_height_small);
-        margin-top: $content-header_height_small;
+    @media screen and (max-width: variables.$bp-2) {
+        height: calc(100vh - variables.$content-header_height_small);
+        margin-top: variables.$content-header_height_small;
     }
 }
 
 section {
     position: relative;
     height: 77vh;
-    max-height: $section-home_height;
+    max-height: variables.$section-home_height;
 
-    @media screen and (max-width: $bp-2) {
+    @media screen and (max-width: variables.$bp-2) {
         display: flex;
         flex-direction: column;
     }
@@ -24,9 +25,9 @@ section {
 #img-box {
     position: absolute;
     right: 0;
-    width: $bg-box_width-ratio;
+    width: variables.$bg-box_width-ratio;
     height: 100%;
-    background-color: $color-minor_light;
+    background-color: variables.$color-minor_light;
     display: flex;
     justify-content: flex-end;
 
@@ -38,12 +39,12 @@ section {
         object-fit: cover;
         object-position: 50% 0%;
 
-        @media screen and (max-width: $bp-2) {
+        @media screen and (max-width: variables.$bp-2) {
             width: 100%;
         }
     }
 
-    @media screen and (max-width: $bp-2) {
+    @media screen and (max-width: variables.$bp-2) {
         position: relative;
         max-height: 380px;
         width: 100%;
@@ -54,19 +55,19 @@ section {
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: $content-margin;
+    margin-left: variables.$content-margin;
 
     h1 {
         max-width: 490px;
         margin-left: 30px;
         margin-top: 50px;
-        text-shadow: 0 0 5px $color-minor_light;
+        text-shadow: 0 0 5px variables.$color-minor_light;
 
-        @media screen and (max-width: $bp-home-1) {
+        @media screen and (max-width: variables.$bp-home-1) {
             font-size: 50px;
         }
 
-        @media screen and (max-width: $bp-home-2) {
+        @media screen and (max-width: variables.$bp-home-2) {
             font-size: 40px;
         }
     }
@@ -77,24 +78,24 @@ section {
         font-size: 24px;
         font-weight: 500;
         letter-spacing: 0.2em;
-        background-color: $color-main;
+        background-color: variables.$color-main;
         width: max-content;
         text-align: center;
 
-        @media screen and (max-width: $bp-2) {
+        @media screen and (max-width: variables.$bp-2) {
             margin-top: 20px;
             padding: 30px 100px 30px 40px;
         }
 
-        @media screen and (max-width: $bp-home-1) {
+        @media screen and (max-width: variables.$bp-home-1) {
             padding-right: 40px;
         }
 
-        @media screen and (max-width: $bp-home-2) {
+        @media screen and (max-width: variables.$bp-home-2) {
             font-size: 18px;
         }
 
-        @media screen and (max-width: $bp-home-3) {
+        @media screen and (max-width: variables.$bp-home-3) {
             padding-right: 0px;
             padding-left: 0px;
             margin-left: auto;
@@ -102,24 +103,24 @@ section {
             width: 90%;
         }
 
-        @media screen and (max-width: $bp-home-4) {
+        @media screen and (max-width: variables.$bp-home-4) {
             letter-spacing: 0.1em;
         }
     }
 
-    @media screen and (max-width: $bp-2) {
+    @media screen and (max-width: variables.$bp-2) {
         margin-top: -150px;
     }
 
-    @media screen and (max-width: $bp-home-1) {
+    @media screen and (max-width: variables.$bp-home-1) {
         margin-top: -126px;
     }
 
-    @media screen and (max-width: $bp-home-2) {
+    @media screen and (max-width: variables.$bp-home-2) {
         margin-top: -110px;
     }
 
-    @media screen and (max-width: $bp-home-3) {
+    @media screen and (max-width: variables.$bp-home-3) {
         margin-left: 0px;
     }
 } // ____#info-box
@@ -153,7 +154,7 @@ section {
     -webkit-animation: arrow 2000ms infinite;
 
     path {
-        stroke: $color-minor_dark;
+        stroke: variables.$color-minor_dark;
         fill: transparent;
         stroke-width: 2px;
     }

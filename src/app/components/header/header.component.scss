@@ -1,9 +1,10 @@
-@import 'src/styles/variables.scss';
+// @import 'src/styles/variables.scss';
+@use 'src/styles/variables';
 
 header {
     position: relative;
     width: 100%;
-    height: $content-header_height;
+    height: variables.$content-header_height;
     display: flex;
     justify-content: flex-end;
     background-color: white;
@@ -13,8 +14,8 @@ header {
     right: 0;
     z-index: 999;
 
-    @media screen and (max-width: $bp-2) {
-        height: $content-header_height_small;
+    @media screen and (max-width: variables.$bp-2) {
+        height: variables.$content-header_height_small;
     }
 }
 
@@ -26,8 +27,8 @@ a {
 #content {
     position: relative;
     z-index: 10;
-    width: $bg-box_width-ratio;
-    background-color: $color-minor_light;
+    width: variables.$bg-box_width-ratio;
+    background-color: variables.$color-minor_light;
     padding-left: 65px;
     padding-right: 50px;
     // height: $content-header_height;
@@ -64,7 +65,7 @@ a {
         }
     }
 
-    @media screen and (max-width: $bp-2) {
+    @media screen and (max-width: variables.$bp-2) {
         display: none;
     }
 } // ____#content
@@ -108,7 +109,7 @@ a {
     padding: 0;
     width: 30px;
     height: 4px;
-    background-color: $color-minor_dark3;
+    background-color: variables.$color-minor_dark3;
     display: block;
     border-radius: 4px;
     transition: all 0.4s ease-in-out;
@@ -161,10 +162,10 @@ a {
 #mobile-menu {
     position: absolute;
     z-index: 9;
-    top: calc($content-header_height + 10px);
+    top: calc(variables.$content-header_height + 10px);
     // right: -160px;
     // height: 8px;
-    background-color: $color-minor_light;
+    background-color: variables.$color-minor_light;
     display: flex;
     flex-direction: column;
     // padding: 30px 30px 30px 0;
@@ -176,7 +177,7 @@ a {
         // margin-left: 20px;
         width: 100%;
         padding: 0 30px;
-        color: $color-minor_dark3;
+        color: variables.$color-minor_dark3;
 
         &:first-child {
             margin-top: 30px;
@@ -187,12 +188,12 @@ a {
         }
 
         &:hover, &:active {
-            background-color: $color-minor_medium;
+            background-color: variables.$color-minor_medium;
         }
     }
 
-    @media screen and (max-width: $bp-2) {
-        top: calc($content-header_height_small + 10px);
+    @media screen and (max-width: variables.$bp-2) {
+        top: calc(variables.$content-header_height_small + 10px);
     }
 } // ____#mobile-menu
 
