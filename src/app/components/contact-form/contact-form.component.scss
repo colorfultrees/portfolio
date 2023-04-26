@@ -11,6 +11,10 @@
 
     #contact-intro {
         margin-right: 50px;
+
+        @media screen and (max-width: variables.$bp-2) {
+            margin-right: unset;
+        }
     }
 
     #contact-info {
@@ -83,8 +87,24 @@
             padding: 10px 25px;
             border-radius: 16px;
         }
+
+        @media screen and (max-width: variables.$bp-1) {
+            width: 50%;
+        }
+
+        @media screen and (max-width: variables.$bp-contact-1) {
+            width: 80%;
+        }
+
+        @media screen and (max-width: variables.$bp-2) {
+            width: 100%;
+        }
+    } // ____form
+
+    @media screen and (max-width: variables.$bp-2) {
+        flex-direction: column;
     }
-}
+} // ____.content
 
 .btn-enabled {
     background-color: variables.$bg-btn;

@@ -2,11 +2,13 @@
 $content_max-width: 1440px;
 $bg-box_width-ratio: 78%; // screen width: 1440px --> width: 1120px
 $content-margin: 8.33%; // screen width: 1440px --> margin: 120px
-$content-margin-small: 5%;
+$content-margin__small: 3%;
 $content-header_height: 130px;
-$content-header_height_small: 73px;
+$content-header_height__small: 73px;
 $section-home_height: 680px;
 $section_margin-top: 100px;
+$skill-icon_height: 70px;
+$skill-icon_height__small: 55px;
 
 // Colors
 $text_page-title: #000000;
@@ -24,9 +26,10 @@ $bg-btn: #0F0F10;
 // Breakpoints
 $bp-1: 1200px;
 $bp-2: 925px;
-$bp-home-1: 635px;
+$bp-home-1: 630px;
 $bp-home-2: 560px;
 $bp-home-3: 445px;
 $bp-home-4: 370px;
 $bp-proj-1: 768px;
-$bp-proj-2: 625px;
+// $bp-proj-2: 625px;
+$bp-contact-1: 1080px;

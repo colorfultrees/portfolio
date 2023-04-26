@@ -24,13 +24,21 @@ $transition: opacity 250ms ease-out;
             width: 100px;
             text-align: center;
             // transition: $transition;
+
+            @media screen and (max-width: variables.$bp-home-3) {
+                width: 90px;
+            }
         }
 
         .ico-black {
-            height: 70px;
+            height: variables.$skill-icon_height;
             opacity: 1;
             filter: invert(43%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(98%) contrast(91%);
             transition: $transition;
+
+            @media screen and (max-width: variables.$bp-home-3) {
+                height: variables.$skill-icon_height__small;
+            }
         }
     
         .ico-colored {
@@ -39,9 +47,13 @@ $transition: opacity 250ms ease-out;
             left: 0;
             right: 0;
             margin: 0 auto;
-            height: 70px;
+            height: variables.$skill-icon_height;;
             opacity: 0;
             transition: $transition;
+
+            @media screen and (max-width: variables.$bp-home-3) {
+                height: variables.$skill-icon_height__small;
+            }
         }
 
         &:hover {
@@ -57,5 +69,9 @@ $transition: opacity 250ms ease-out;
                 opacity: 1;
             }
         }
+    } // ____.skill
+
+    @media screen and (max-width: variables.$bp-home-3) {
+        gap: 25px;
     }
-}
+} // ____#skills-list

@@ -6,8 +6,8 @@
     margin-top: variables.$content-header_height;
 
     @media screen and (max-width: variables.$bp-2) {
-        height: calc(100vh - variables.$content-header_height_small);
-        margin-top: variables.$content-header_height_small;
+        height: calc(100vh - variables.$content-header_height__small);
+        margin-top: variables.$content-header_height__small;
     }
 }
 
@@ -106,7 +106,7 @@ section {
         @media screen and (max-width: variables.$bp-home-4) {
             letter-spacing: 0.1em;
         }
-    }
+    } // ____#job-title
 
     @media screen and (max-width: variables.$bp-2) {
         margin-top: -150px;
@@ -114,6 +114,7 @@ section {
 
     @media screen and (max-width: variables.$bp-home-1) {
         margin-top: -126px;
+        margin-left: variables.$content-margin__small;
     }
 
     @media screen and (max-width: variables.$bp-home-2) {
