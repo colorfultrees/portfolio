@@ -38,6 +38,22 @@ footer {
 
         img {
             height: 40px;
+
+            @media screen and (max-width: variables.$bp-home-3) {
+                height: 32px;
+            }
         }
+
+        @media screen and (max-width: variables.$bp-home-2) {
+            gap: 28px;
+        }
+    }
+
+    @media screen and (max-width: variables.$bp-home-3) {
+        flex-direction: column-reverse;
+        justify-content: unset;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        gap: 18px;
     }
 }
