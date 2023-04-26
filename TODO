@@ -5,6 +5,7 @@ Allgemein:
   ✔ E-Mail-Versand bestätigen (Pop-up) @done(23-04-15 22:11)
   ☐ ?Bestätigungsmail an Absender (Option)
   ☐ "About Me"-Text entwerfen
+  ☐ Intro-Text für Kontaktsektion
   ☐ Portrait(s) einbinden
   ☐ E-Mail-Adresse von eigener Domain verwenden?
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
@@ -22,7 +23,7 @@ Design:
   ✔ Schatten unter Header nach Scrollbeginn @done(23-04-20 17:00)
   ✔ Hamburger-Menü in Header für Mobilansicht @done(23-04-20 20:00)
   ✔ Sidebar für Mobilansicht @done(23-04-22 16:11)
-  ☐ Responsive Design @started(23-04-23 11:30)
+  ✔ Responsive Design @started(23-04-23 11:30) @done(23-04-26 20:27) @lasted(3d8h57m40s)
     ✔ Try-it-Buttons zu Projektbild hinzufügen für einspaltige Darstellung @done(23-04-24 19:11)
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
@@ -44,6 +45,6 @@ Animationen:
 
 Abschnitt "Projekte":
   ✔ Projektbeschreibungen @done(23-04-20 17:30)
-  ☐ Projektillustrationen
+  ✔ Projektillustrationen @done(21-04-26 21:00)
   ✔ Slack-Clone: Name in App ändern (z. B. "gaggler") --> Neuer Name: Cynapse @done(23-04-24 16:07)
   ☐ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace)
