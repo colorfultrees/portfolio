@@ -34,7 +34,7 @@ export const projects: Array<Project> = [
     },
     {
         NAME: 'JOIN',
-        DESCRIPTION: 'A Kanban Project Management App. Create Tasks, assign users and categories, and change task status by simply using drag-and-drop.',
+        DESCRIPTION: 'A Kanban Project Management App. Create tasks, assign users and categories, and change task status by simply using drag-and-drop.',
         TECHNOLOGIES: ['HTML', 'CSS', 'Javascript'],
         IMG_REF: {
             URL: 'assets/img/join.jpg',

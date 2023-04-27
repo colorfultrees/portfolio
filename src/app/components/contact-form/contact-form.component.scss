@@ -104,6 +104,11 @@
     @media screen and (max-width: variables.$bp-2) {
         flex-direction: column;
     }
+
+    @media screen and (max-width: variables.$bp-home-1) {
+        padding-left: variables.$content-margin__small;
+        padding-right: variables.$content-margin__small;
+    }
 } // ____.content
 
 .btn-enabled {

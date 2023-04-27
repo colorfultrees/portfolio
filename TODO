@@ -29,6 +29,7 @@ Design:
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
   ☐ Logo (favicon)
   ☐ Logo in footer?
+  ☐ "Home"-Sektion für Smartphones mit geringer Höhe optimieren (Scroll-Down-Pfeile überlappen Jobtitle-Container) @started(23-04-27 17:00)
   Footer:
     ✔ Footer erstellen @done(23-04-17 18:58)
     ☐ Link zu Xing einfügen
