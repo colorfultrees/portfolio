@@ -49,6 +49,10 @@ section {
         max-height: 380px;
         width: 100%;
     }
+
+    @media screen and (max-height: variables.$bp-h-1) {
+        max-height: 185px;
+    }
 } // ____#img-box
 
 #info-box {
@@ -69,6 +73,10 @@ section {
 
         @media screen and (max-width: variables.$bp-home-2) {
             font-size: 40px;
+        }
+
+        @media screen and (max-height: variables.$bp-h-1) {
+            line-height: 50px;
         }
     }
 
@@ -106,6 +114,11 @@ section {
         @media screen and (max-width: variables.$bp-home-4) {
             letter-spacing: 0.1em;
         }
+
+        @media screen and (max-height: variables.$bp-h-1) {
+            padding-top: 22px;
+            padding-bottom: 22px;
+        }
     } // ____#job-title
 
     @media screen and (max-width: variables.$bp-2) {
@@ -123,6 +136,10 @@ section {
 
     @media screen and (max-width: variables.$bp-home-3) {
         margin-left: 0px;
+    }
+
+    @media screen and (max-height: variables.$bp-h-1) {
+        margin-top: -101px;
     }
 } // ____#info-box
 
