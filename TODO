@@ -4,9 +4,9 @@ Allgemein:
   ✔ Datenvalidierung und Warnmeldung für Eingabefelder implementieren @started(23-04-14 15:06) @done(23-04-14 17:53) @lasted(2h47m5s)
   ✔ E-Mail-Versand bestätigen (Pop-up) @done(23-04-15 22:11)
   ☐ ?Bestätigungsmail an Absender (Option)
-  ☐ "About Me"-Text entwerfen
-  ☐ Intro-Text für Kontaktsektion
-  ☐ Portrait(s) einbinden
+  ✔ "About Me"-Text entwerfen @done(22-04-28 19:45)
+  ✔ Intro-Text für Kontaktsektion @done(22-04-28 20:10)
+  ✔ Portrait(s) einbinden @done(23-04-28 15:00)
   ☐ E-Mail-Adresse von eigener Domain verwenden?
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
   ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
@@ -30,6 +30,13 @@ Design:
   ☐ Logo (favicon)
   ☐ Logo in footer?
   ☐ "Home"-Sektion für Smartphones mit geringer Höhe optimieren (Scroll-Down-Pfeile überlappen Jobtitle-Container) @started(23-04-27 17:00)
+  ☐ Hover-Effekte für Touchgeräte ausschalten --> @include mixins.hover-supported() {...}
+  ✔ Tippfehler korrigieren ("visualize" --> "visulaise", "centered" --> "centred") @done(23-04-28 15:00)
+  ✔ Zitatautor kleiner @done(23-04-28 15:15)
+  ✔ Klick auf Projektbilder (Hover) @done(23-04-28 16:00)
+  ✔ Try-it-Btns mit kleinen Pfeilen versehen @done(23-04-28 15:30)
+  ✔ Try-it-Btns-Resp: Design ändern @done(23-04-28 16:40)
+  ✔ Abbildung in "About me" ändern @done(23-04-28 17:17)
   Footer:
     ✔ Footer erstellen @done(23-04-17 18:58)
     ☐ Link zu Xing einfügen

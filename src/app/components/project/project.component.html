@@ -1,9 +1,16 @@
 <div class="project" [class.revers]="revers && width >= MAX_WIDTH">
     <div class="img-container">
         <img src="{{ projectItem.IMG_REF.URL }}" alt="{{ projectItem.IMG_REF.ALT}}">
+        <a id="in-pic-try-it" href="{{ projectItem.APP_REF.URL }}" target="_blank">Click & Try</a>
         <div class="try-it-btns-resp">
-            <a href="{{ projectItem.APP_REF.URL }}" target="_blank">Try It</a>
-            <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">View Code</a>
+            <a href="{{ projectItem.APP_REF.URL }}" target="_blank">
+                <img class="arrow-right" src="assets/icons/arrow-right.svg">
+                Try It
+            </a>
+            <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">
+                <img class="arrow-right" src="assets/icons/arrow-right.svg">
+                View Code
+            </a>
         </div>
     </div>
     <div class="proj-desc" [class.align-right]="revers && width >= MAX_WIDTH">
@@ -13,8 +20,14 @@
         </ul>
         <p>{{ projectItem.DESCRIPTION }}</p>
         <div class="try-it-btns">
-            <a href="{{ projectItem.APP_REF.URL }}" target="_blank">Try It</a>
-            <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">View Code</a>
+            <a href="{{ projectItem.APP_REF.URL }}" target="_blank">
+                <img class="arrow-right" src="assets/icons/arrow-right.svg">
+                Try It
+            </a>
+            <a href="{{ projectItem.APP_REF.GIT }}" target="_blank">
+                <img class="arrow-right" src="assets/icons/arrow-right.svg">
+                View Code
+            </a>
         </div>
     </div>
 </div>

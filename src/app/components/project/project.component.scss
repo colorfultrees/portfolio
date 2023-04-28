@@ -2,6 +2,10 @@
 // @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
 
+a {
+    text-decoration: none;
+}
+
 .project {
     display: flex;
     // justify-content: space-between;
@@ -21,33 +25,66 @@
             height: 100%;
         }
 
-        .try-it-btns-resp {
+        #in-pic-try-it {
             position: absolute;
-            bottom: 20px;
+            top: 0;
+            bottom: 0;
             left: 0;
             right: 0;
+            background-color: rgba(variables.$color-minor_light, 0.35);
+            color: black;
+            font-size: 21px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0; // Will be displayed via @media
+            transition: opacity 185ms ease;
+
+            @media screen and (max-width: variables.$bp-1) {
+                display: none;
+            }
+        }
+
+        .try-it-btns-resp {
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+            right: 0;
+            padding: 25px 0 10px;
+            background: linear-gradient(0deg, rgba(variables.$color-minor_light, 0.63) 0%, rgba(variables.$color-minor_light, 0.63) 70%, rgba(variables.$color-minor_light, 0) 100%);
             display: none; // Will be displayed via @media
             justify-content: space-evenly;
 
             a {
-                text-decoration: none;
                 color: black;
-                background-color: rgba(variables.$color-minor_medium, 0.83);
-                padding: 8px 36px;
+                // background-color: rgba(variables.$color-minor_light, 0.85);
+                padding: 5px 28px;
                 transition: background-color 230ms ease;
+                display: flex;
+                align-items: center;
+                border-top-right-radius: 20px;
+
+                .arrow-right {
+                    width: 21px;
+                    filter: variables.$filter_000-to-2e2e2e;
+                }
 
                 @include mixins.hover-supported() {
-                    background-color: rgba(variables.$color-main, 0.75);
+                    background-color: rgba(variables.$color-main, 0.45);
                 }
 
                 &:active {
-                    background-color: rgba(variables.$color-main, 0.75);
+                    background-color: rgba(variables.$color-main, 0.45);
                 }
             }
 
             @media screen and (max-width: variables.$bp-1) {
                 display: flex;
             }
+        }
+
+        &:hover #in-pic-try-it {
+            opacity: 1;
         }
 
         @media screen and (max-width: variables.$bp-1) {
@@ -124,16 +161,27 @@
         a {
             text-decoration: none;
             color: variables.$color-minor_medium;
-            padding: 8px 16px;
-            border-bottom: 2px solid variables.$color-minor_medium;
-            border-top-right-radius: 10px;
+            padding: 8px 12px 8px 3px;
+            border-bottom: 1px solid variables.$color-minor_medium;
+            border-top-right-radius: 20px;
             display: flex;
             align-items: center;
             transition: all 230ms ease;
 
+            .arrow-right {
+                width: 21px;
+                // height: 100%;
+                // margin-right: 7px;
+                filter: variables.$filter_000-to-999;
+            }
+
             &:hover {
                 color: variables.$color-minor_dark;
                 background-color: variables.$color-minor_light;
+
+                .arrow-right {
+                    filter: variables.$filter_000-to-6d6d6d;
+                }
             }
         }
 

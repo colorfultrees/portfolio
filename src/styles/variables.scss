@@ -23,6 +23,12 @@ $color-minor_dark2: #2E2E2E;
 $color-minor_dark3: #0D0D0C;
 $bg-btn: #0F0F10;
 
+// Color filters
+$filter_000-to-999: invert(74%) sepia(0%) saturate(15%) hue-rotate(196deg) brightness(83%) contrast(85%);
+$filter_000-to-6d6d6d: invert(43%) sepia(0%) saturate(0%) hue-rotate(341deg) brightness(97%) contrast(91%);
+$filter_000-to-2e2e2e: invert(16%) sepia(7%) saturate(0%) hue-rotate(175deg) brightness(107%) contrast(97%);
+
+
 // Breakpoints
 $bp-1: 1200px;
 $bp-2: 925px;
