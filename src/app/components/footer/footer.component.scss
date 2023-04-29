@@ -39,17 +39,17 @@ footer {
         img {
             height: 40px;
 
-            @media screen and (max-width: variables.$bp-home-3) {
+            @media screen and (max-width: variables.$bp-7) {
                 height: 32px;
             }
         }
 
-        @media screen and (max-width: variables.$bp-home-2) {
+        @media screen and (max-width: variables.$bp-6) {
             gap: 28px;
         }
     }
 
-    @media screen and (max-width: variables.$bp-home-3) {
+    @media screen and (max-width: variables.$bp-7) {
         flex-direction: column-reverse;
         justify-content: unset;
         padding-top: 22px;

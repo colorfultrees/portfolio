@@ -6,7 +6,7 @@
     flex-direction: column;
     gap: 120px;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         gap: 75px
     }
 }

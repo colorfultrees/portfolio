@@ -50,8 +50,8 @@ a {
             bottom: 0px;
             left: 0;
             right: 0;
-            padding: 25px 0 10px;
-            background: linear-gradient(0deg, rgba(variables.$color-minor_light, 0.63) 0%, rgba(variables.$color-minor_light, 0.63) 70%, rgba(variables.$color-minor_light, 0) 100%);
+            padding: 12px 0 12px;
+            background: rgba(variables.$color-minor_light, 0.63);
             display: none; // Will be displayed via @media
             justify-content: space-evenly;
 
@@ -91,19 +91,19 @@ a {
             height: 460px;
         }
 
-        @media screen and (max-width: variables.$bp-proj-1) {
+        @media screen and (max-width: variables.$bp-4) {
             height: 400px;
         }
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             height: 330px;
         }
 
-        @media screen and (max-width: variables.$bp-home-3) {
+        @media screen and (max-width: variables.$bp-7) {
             height: 280px;
         }
 
-        @media screen and (max-width: variables.$bp-home-4) {
+        @media screen and (max-width: variables.$bp-8) {
             height: 220px;
         }
     } // ____.img-container
@@ -143,12 +143,12 @@ a {
             border-radius: 20px;
             background-color: variables.$color-main;
 
-            @media screen and (max-width: variables.$bp-home-1) {
+            @media screen and (max-width: variables.$bp-5) {
                 font-size: 14px;
             }
         }
 
-        @media screen and (max-width: variables.$bp-home-2) {
+        @media screen and (max-width: variables.$bp-6) {
             gap: 12px;
         }
     }
@@ -197,7 +197,7 @@ a {
         margin: 0 auto;
     }
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         gap: 50px
     }
 } // ____.project

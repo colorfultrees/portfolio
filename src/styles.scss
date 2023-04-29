@@ -44,7 +44,7 @@ body {
     overflow-y: scroll;
     scroll-padding: variables.$content-header_height 0 0 0;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         font-size: 16px;
     }
 }
@@ -55,7 +55,7 @@ body {
     height: variables.$content-header_height;
     margin-top: -(variables.$content-header_height);
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         height: variables.$content-header_height__small;
         margin-top: -(variables.$content-header_height__small);
     }
@@ -74,7 +74,7 @@ h2 {
     font-size: 60px;
     color: variables.$text_section-title;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         font-size: 44px;
     }
 }
@@ -92,7 +92,7 @@ h4 {
     font-size: 39px;
     color: variables.$color-minor_medium;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         font-size: 32px;
     }
 }
@@ -110,7 +110,7 @@ p {
     line-height: 36px;
     color: variables.$color-minor_dark;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         // font-size: 16px;
         line-height: 28px;
     }
@@ -119,7 +119,7 @@ p {
 .section-title {
     margin-bottom: 52px;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         margin-bottom: 28px;
     }
 }

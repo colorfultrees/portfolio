@@ -14,7 +14,7 @@ header {
     right: 0;
     z-index: 999;
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         height: variables.$content-header_height__small;
     }
 }
@@ -65,7 +65,7 @@ a {
         }
     }
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         display: none;
     }
 } // ____#content
@@ -192,7 +192,7 @@ a {
         }
     }
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         top: calc(variables.$content-header_height__small + 10px);
     }
 } // ____#mobile-menu

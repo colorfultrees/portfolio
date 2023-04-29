@@ -5,7 +5,7 @@
     height: calc(100vh - variables.$content-header_height);
     margin-top: variables.$content-header_height;
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         height: calc(100vh - variables.$content-header_height__small);
         margin-top: variables.$content-header_height__small;
     }
@@ -16,7 +16,7 @@ section {
     height: 77vh;
     max-height: variables.$section-home_height;
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         display: flex;
         flex-direction: column;
     }
@@ -39,12 +39,12 @@ section {
         object-fit: cover;
         object-position: 50% 0%;
 
-        @media screen and (max-width: variables.$bp-2) {
+        @media screen and (max-width: variables.$bp-3) {
             width: 100%;
         }
     }
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         position: relative;
         max-height: 380px;
         width: 100%;
@@ -67,11 +67,11 @@ section {
         margin-top: 50px;
         text-shadow: 0 0 5px variables.$color-minor_light;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 50px;
         }
 
-        @media screen and (max-width: variables.$bp-home-2) {
+        @media screen and (max-width: variables.$bp-6) {
             font-size: 40px;
         }
 
@@ -90,20 +90,20 @@ section {
         width: max-content;
         text-align: center;
 
-        @media screen and (max-width: variables.$bp-2) {
+        @media screen and (max-width: variables.$bp-3) {
             margin-top: 20px;
             padding: 30px 100px 30px 40px;
         }
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             padding-right: 40px;
         }
 
-        @media screen and (max-width: variables.$bp-home-2) {
+        @media screen and (max-width: variables.$bp-6) {
             font-size: 18px;
         }
 
-        @media screen and (max-width: variables.$bp-home-3) {
+        @media screen and (max-width: variables.$bp-7) {
             padding-right: 0px;
             padding-left: 0px;
             margin-left: auto;
@@ -111,7 +111,7 @@ section {
             width: 90%;
         }
 
-        @media screen and (max-width: variables.$bp-home-4) {
+        @media screen and (max-width: variables.$bp-8) {
             letter-spacing: 0.1em;
         }
 
@@ -121,20 +121,20 @@ section {
         }
     } // ____#job-title
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         margin-top: -150px;
     }
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         margin-top: -126px;
         margin-left: variables.$content-margin__small;
     }
 
-    @media screen and (max-width: variables.$bp-home-2) {
+    @media screen and (max-width: variables.$bp-6) {
         margin-top: -110px;
     }
 
-    @media screen and (max-width: variables.$bp-home-3) {
+    @media screen and (max-width: variables.$bp-7) {
         margin-left: 0px;
     }
 

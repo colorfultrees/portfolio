@@ -15,7 +15,7 @@
     margin-left: variables.$content-margin;
     margin-right: variables.$content-margin;
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         margin-left: variables.$content-margin__small;
         margin-right: variables.$content-margin__small;
     }

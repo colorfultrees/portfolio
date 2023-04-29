@@ -25,7 +25,7 @@ $transition: opacity 250ms ease-out;
             text-align: center;
             // transition: $transition;
 
-            @media screen and (max-width: variables.$bp-home-3) {
+            @media screen and (max-width: variables.$bp-7) {
                 width: 90px;
             }
         }
@@ -36,7 +36,7 @@ $transition: opacity 250ms ease-out;
             filter: invert(43%) sepia(0%) saturate(0%) hue-rotate(161deg) brightness(98%) contrast(91%);
             transition: $transition;
 
-            @media screen and (max-width: variables.$bp-home-3) {
+            @media screen and (max-width: variables.$bp-7) {
                 height: variables.$skill-icon_height__small;
             }
         }
@@ -51,7 +51,7 @@ $transition: opacity 250ms ease-out;
             opacity: 0;
             transition: $transition;
 
-            @media screen and (max-width: variables.$bp-home-3) {
+            @media screen and (max-width: variables.$bp-7) {
                 height: variables.$skill-icon_height__small;
             }
         }
@@ -71,7 +71,7 @@ $transition: opacity 250ms ease-out;
         }
     } // ____.skill
 
-    @media screen and (max-width: variables.$bp-home-3) {
+    @media screen and (max-width: variables.$bp-7) {
         gap: 25px;
     }
 } // ____#skills-list

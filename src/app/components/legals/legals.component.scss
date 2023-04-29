@@ -14,7 +14,7 @@
     h1 {
         font-size: 24px;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 21px;
         }
     }
@@ -22,7 +22,7 @@
     h2 {
         font-size: 22px;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 19px;
         }
     }
@@ -31,7 +31,7 @@
         font-size: 20px;
         color: variables.$color-minor_dark3;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 18px;
         }
     }
@@ -40,7 +40,7 @@
         font-size: 18px;
         color: variables.$color-minor_dark2;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 16px;
         }
     }
@@ -51,7 +51,7 @@
         margin-top: 5px;
         margin-bottom: 30px;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 14px;
             line-height: 18px;
             margin-top: 3px;
@@ -64,16 +64,16 @@
         font-size: 16px;
         color: variables.$color-minor_dark;
 
-        @media screen and (max-width: variables.$bp-home-1) {
+        @media screen and (max-width: variables.$bp-5) {
             font-size: 14px;
         }
     }
 
-    @media screen and (max-width: variables.$bp-2) {
+    @media screen and (max-width: variables.$bp-3) {
         margin-top: variables.$content-header_height__small;
     }
 
-    @media screen and (max-width: variables.$bp-home-1) {
+    @media screen and (max-width: variables.$bp-5) {
         margin-left: variables.$content-margin__small;
         margin-right: variables.$content-margin__small;
     }
