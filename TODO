@@ -48,8 +48,7 @@ Animationen:
   ✔ Hover-Effekt auf Skill-Icon @done(23-04-13 20:30)
   ✔ Hover-Effekt auf Send-Btn @done(23-04-13 16:00)
   ✔ Hover-Effekt auf Menü-Einträge @done(23-04-16 17:06)
-  ☐ "Lazy Loading" für Projekt-Einträge (Library: Animate on scroll)
-  ☐ ggf. "Lazy Loading" für weitere Elemente, z. B. Kontaktfelder, Skills, ...
+  ☐ "On-Scroll"-Animationen (Library "Animate On Scroll") @started(23-04-29 15:30)
 
 Abschnitt "Projekte":
   ✔ Projektbeschreibungen @done(23-04-20 17:30)
