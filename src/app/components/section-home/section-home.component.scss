@@ -51,7 +51,7 @@ section {
     }
 
     @media screen and (max-height: variables.$bp-h-1) {
-        max-height: 185px;
+        max-height: 230px;
     }
 } // ____#img-box
 
@@ -76,7 +76,7 @@ section {
         }
 
         @media screen and (max-height: variables.$bp-h-1) {
-            line-height: 50px;
+            line-height: 60px;
         }
     }
 
@@ -116,8 +116,8 @@ section {
         }
 
         @media screen and (max-height: variables.$bp-h-1) {
-            padding-top: 22px;
-            padding-bottom: 22px;
+            padding-top: 28px;
+            padding-bottom: 28px;
         }
     } // ____#job-title
 
@@ -139,7 +139,7 @@ section {
     }
 
     @media screen and (max-height: variables.$bp-h-1) {
-        margin-top: -101px;
+        margin-top: -108px;
     }
 } // ____#info-box
 

@@ -7,7 +7,7 @@ Allgemein:
   ✔ "About Me"-Text entwerfen @done(22-04-28 19:45)
   ✔ Intro-Text für Kontaktsektion @done(22-04-28 20:10)
   ✔ Portrait(s) einbinden @done(23-04-28 15:00)
-  ☐ E-Mail-Adresse von eigener Domain verwenden?
+  ☐ E-Mail-Adresse von eigener Domain verwenden
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
   ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
   ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
@@ -29,7 +29,7 @@ Design:
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
   ☐ Logo (favicon)
   ☐ Logo in footer?
-  ☐ "Home"-Sektion für Smartphones mit geringer Höhe optimieren (Scroll-Down-Pfeile überlappen Jobtitle-Container) @started(23-04-27 17:00)
+  ✔ "Home"-Sektion für Smartphones mit geringer Höhe optimieren (Scroll-Down-Pfeile überlappen Jobtitle-Container) @started(23-04-27 17:00) @done(23-04-29 14:53) @lasted(1d21h53m31s)
   ☐ Hover-Effekte für Touchgeräte ausschalten --> @include mixins.hover-supported() {...}
   ✔ Tippfehler korrigieren ("visualize" --> "visulaise", "centered" --> "centred") @done(23-04-28 15:00)
   ✔ Zitatautor kleiner @done(23-04-28 15:15)
