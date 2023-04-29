@@ -13,7 +13,7 @@ Allgemein:
   ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
   ✔ "Back to top"-Buttons (Main + Legals) @done(23-04-22 21:56)
   ✔ Reload von Legals schlägt fehl --> mit Dennis besprechen @done(23-04-22 16:32)
-  ☐ Umbenennung/Re-Organisation der Breakpoints (variables.scss) @started(23-04-29 19:32)
+  ✔ Umbenennung/Re-Organisation der Breakpoints (variables.scss) @started(23-04-29 19:32) @done(23-04-29 19:43) @lasted(11m16s)
   Impressum & Datenschutz:
     ✔ Inhalte erstellen (z. B. über eRecht24) @done(23-04-18 20:59)
     ✔ CSS definieren @done(23-04-19 15:32)
@@ -27,8 +27,8 @@ Design:
     ✔ Try-it-Buttons zu Projektbild hinzufügen für einspaltige Darstellung @done(23-04-24 19:11)
   ✔ Favicon erstellen @done(23-04-15 22:12)
   ✔ "SKills"-Sektion läuft in "Home"-Sektion hinein bei kleiner Anzeigehöhe @done(23-04-16 16:34)
-  ☐ Logo (favicon)
-  ☐ Logo in footer?
+  ✔ Logo (favicon) @done(23-04-29 20:37)
+  ✘ Logo in footer? @cancelled(23-04-29 19:43)
   ✔ "Home"-Sektion für Smartphones mit geringer Höhe optimieren (Scroll-Down-Pfeile überlappen Jobtitle-Container) @started(23-04-27 17:00) @done(23-04-29 14:53) @lasted(1d21h53m31s)
   ✘ Hover-Effekte für Touchgeräte ausschalten --> @include mixins.hover-supported() {...} @cancelled(23-04-29 19:31) // Hovereffekte erscheinen auf Touchdisplay nicht
   ✔ Tippfehler korrigieren ("visualize" --> "visulaise", "centered" --> "centred") @done(23-04-28 15:00)
