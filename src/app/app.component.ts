@@ -1,15 +1,22 @@
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener, OnInit } from '@angular/core';
 import { ScrollService } from './shared/scroll.service';
-import { NgwWowService } from 'ngx-wow';
+import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
-  constructor(private scrollService: ScrollService, private wowService: NgwWowService) {
-    this.wowService.init();
+export class AppComponent implements OnInit {
+  constructor(private scrollService: ScrollService) {}
+
+  ngOnInit(): void {
+    AOS.init(
+      {
+        offset: 100,
+        once: true
+      }
+    );
   }
 
   @HostListener('window:scroll', []) onWindowScroll() {

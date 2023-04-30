@@ -1,5 +1,5 @@
 <div class="project" [class.revers]="revers && width >= MAX_WIDTH">
-    <div class="img-container">
+    <div class="img-container" data-aos="fade-down-right">
         <img src="{{ projectItem.IMG_REF.URL }}" alt="{{ projectItem.IMG_REF.ALT}}">
         <a id="in-pic-try-it" href="{{ projectItem.APP_REF.URL }}" target="_blank">Click & Try</a>
         <div class="try-it-btns-resp">
@@ -13,7 +13,7 @@
             </a>
         </div>
     </div>
-    <div class="proj-desc" [class.align-right]="revers && width >= MAX_WIDTH">
+    <div class="proj-desc" [class.align-right]="revers && width >= MAX_WIDTH" data-aos="fade-up-left">
         <div class="proj-title"><h4>{{ projectItem.NAME }}</h4><span *ngIf="projectItem.TEAM" class="teamwork">Teamwork</span></div>
         <ul class="technologies" [class.justify-right]="revers && width >= MAX_WIDTH">
             <li *ngFor="let tech of projectItem.TECHNOLOGIES">{{ tech }}</li>

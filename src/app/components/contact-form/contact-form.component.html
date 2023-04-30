@@ -1,25 +1,25 @@
 <div id="contact" class="content">
-    <div id="contact-intro">
+    <div id="contact-intro" data-aos="fade">
         <h3>Have a challenge for me?</h3>
         <p id="contact-info">Who? Why? What? Tell me in a nutshell.</p>
     </div>
     <form (submit)="commitForm(mailForm.value, mailForm)" #mailForm="ngForm">
-        <div class="contact-sub">
+        <div class="contact-sub" data-aos="fade-left">
             <label for="name">Name</label>
             <input required type="text" name="name" ngModel #name="ngModel" placeholder="Your name ...">
             <span [class.err-visible]="name.invalid && name.touched">Please enter your name!</span>
         </div>
-        <div class="contact-sub">
+        <div class="contact-sub" data-aos="fade-left">
             <label for="email">Email</label>
             <input required type="email" name="email" email ngModel #email="ngModel" placeholder="Your mail address ...">
             <span [class.err-visible]="email.invalid && email.touched">Please enter a valid email address!</span>
         </div>
-        <div class="contact-sub">
+        <div class="contact-sub" data-aos="fade-left">
             <label for="message">Message</label>
             <textarea required type="text" name="message" ngModel #message="ngModel" placeholder="Your message ..."></textarea>
             <span [class.err-visible]="message.invalid && message.touched">Please enter your message!</span>
         </div>
-        <div id="btn-container">
+        <div id="btn-container" data-aos="fade-left">
             <button [ngClass]="mailForm.invalid ? 'btn-disabled' : 'btn-enabled'" [disabled]="mailForm.invalid">SEND MESSAGE</button>
             <div id="notifier" [class.show-notifier]="hasMailSent">
                 Message<br>sent

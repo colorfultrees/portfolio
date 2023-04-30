@@ -1,7 +1,7 @@
 <div id="skills">
     <h2 class="section-title">Skills</h2>
     <div id="skills-list">
-        <div class="skill wow fadeInLeft" *ngFor="let skill of skills">
+        <div class="skill" data-aos="fade-right" *ngFor="let skill of skills">
             <img class="ico-black" src="{{ skill.iconBlack }}" alt="{{ skill.name}}">
             <img class="ico-colored" src="{{ skill.iconColor }}" alt="">
             <span>{{ skill.name }}</span>
