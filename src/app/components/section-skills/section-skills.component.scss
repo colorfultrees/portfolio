@@ -1,4 +1,3 @@
-// @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
 
 $transition: opacity 250ms ease-out;
@@ -23,7 +22,6 @@ $transition: opacity 250ms ease-out;
             font-weight: 500;
             width: 100px;
             text-align: center;
-            // transition: $transition;
 
             @media screen and (max-width: variables.$bp-7) {
                 width: 90px;

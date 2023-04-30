@@ -1,5 +1,4 @@
 @use 'src/styles/mixins';
-// @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
 
 a {
@@ -8,14 +7,12 @@ a {
 
 .project {
     display: flex;
-    // justify-content: space-between;
     align-items: center;
     gap: 80px;
 
     .img-container {
         position: relative;
         min-width: 45.8%; // screen width: 1440 --> width: 660px
-        // max-width: 660px;
         height: 400px;
         background-color: gray;
 
@@ -57,7 +54,6 @@ a {
 
             a {
                 color: black;
-                // background-color: rgba(variables.$color-minor_light, 0.85);
                 padding: 5px 28px;
                 transition: background-color 230ms ease;
                 display: flex;
@@ -131,7 +127,6 @@ a {
 
     .technologies {
         list-style-type: none;
-        // margin: 0;
         padding: 0;
         display: flex;
         flex-wrap: wrap;
@@ -154,7 +149,6 @@ a {
     }
 
     .try-it-btns {
-        // width: 100%;
         display: flex;
         gap: 50px;
 
@@ -170,8 +164,6 @@ a {
 
             .arrow-right {
                 width: 21px;
-                // height: 100%;
-                // margin-right: 7px;
                 filter: variables.$filter_000-to-999;
             }
 

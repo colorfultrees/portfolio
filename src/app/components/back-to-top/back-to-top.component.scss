@@ -1,14 +1,9 @@
-// @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
 
 #back-to-top-btn {
     $arrow-width: 34px;
     $arrow-height: 17px;
     $btn-size: $arrow-width + 17px;
-
-    // position: absolute;
-    // bottom: 30px;
-    // right: 20px;
     width: $btn-size;
     height: $btn-size;
     display: flex;

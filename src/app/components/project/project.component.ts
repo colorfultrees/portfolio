@@ -6,11 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./project.component.scss']
 })
 export class ProjectComponent {
-  // @Input() name: string = '';
-  // @Input() description: string = '';
-  // @Input() technologies: string[] = [];
-  // @Input() imgUrl: string = '';
-  // @Input() imgAltTxt: string = '';
   @Input() projectItem: any;
   @Input() revers: boolean = false;
 

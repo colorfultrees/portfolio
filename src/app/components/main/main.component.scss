@@ -1,15 +1,4 @@
-// @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
-
-// #section-home {
-//     display: block;
-//     height: calc(100vh - $content-header_height);
-// }
-
-// #page-wrapper {
-//     width: 100%;
-//     padding: 0 $content-margin;
-// }
 
 .section-wrap {
     margin-left: variables.$content-margin;

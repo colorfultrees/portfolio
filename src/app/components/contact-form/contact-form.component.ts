@@ -17,7 +17,7 @@ export class ContactFormComponent {
    */
   async commitForm(data: any, form: NgForm) {
     await this.sendMail(data);
-    this.hasMailSent = true;
+    // this.hasMailSent = true;
     setTimeout(() => {
       this.hasMailSent = false;
       form.resetForm();
@@ -47,16 +47,10 @@ export class ContactFormComponent {
           throw new Error(`Sorry, the email could not be sent! (Error: ${response.status})`);
         }
 
-        console.log('Email successfully sent.'); // TODO: show pop-up w/ confirmation
+        this.hasMailSent = true;
     }
     catch (err) {
-      console.log(`Oops, something went wrong! (Error: ${err})`);
+      console.log(`Error during mail dispatch! (Error: ${err})`);
     }
   }
-
-  // resetForm(name: any, email: any, message: any) {
-  //   name.value = '';
-  //   email.value = '';
-  //   message.value = '';
-  // }
 }

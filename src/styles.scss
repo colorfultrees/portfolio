@@ -1,7 +1,6 @@
 @use 'styles/variables';
 @import 'styles/fonts.scss';
 @import 'aos/dist/aos.css';
-// @import 'styles/variables.scss';
 
 @mixin headline-font {
     font-weight: 700;
@@ -65,7 +64,7 @@ body {
 h1 {
     @include headline-font();
     @include headline-layout();
-    font-size: clamp(67px, 7.2vw, 80px);// 80px;
+    font-size: clamp(67px, 7.2vw, 80px);
     color: variables.$text_page-title
 }
 
@@ -112,7 +111,6 @@ p {
     color: variables.$color-minor_dark;
 
     @media screen and (max-width: variables.$bp-5) {
-        // font-size: 16px;
         line-height: 28px;
     }
 }

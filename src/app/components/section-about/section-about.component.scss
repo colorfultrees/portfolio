@@ -1,11 +1,8 @@
-// @import 'src/styles/variables.scss';
 @use 'src/styles/variables';
 
 #divider {
     width: 100%;
     height: 286px;
-    // object-fit: cover;
-    // object-position: center;
     background-image: url('../../../assets/img/divider.jpg');
     background-size: 240%;
     background-position-x: 73%;
@@ -38,7 +35,6 @@ a {
     position: relative;
 
     #info {
-        // position: relative;
         right: 80px;
         top: -80px;
         display: flex;
