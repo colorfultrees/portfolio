@@ -14,7 +14,8 @@ export class AppComponent implements OnInit {
     AOS.init(
       {
         offset: 100,
-        once: true
+        once: true,
+        disable: 'phone'
       }
     );
   }

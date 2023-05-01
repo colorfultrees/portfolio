@@ -1,5 +1,9 @@
 @use 'src/styles/variables';
 
+#about-wrapper {
+    overflow-x: hidden;
+}
+
 #divider {
     width: 100%;
     height: 286px;
