@@ -3,7 +3,7 @@ Allgemein:
   ✔ Kontaktdaten in eigener Datei verwalten (contact.ts) @done(23-04-13 15:30)
   ✔ Datenvalidierung und Warnmeldung für Eingabefelder implementieren @started(23-04-14 15:06) @done(23-04-14 17:53) @lasted(2h47m5s)
   ✔ E-Mail-Versand bestätigen (Pop-up) @done(23-04-15 22:11)
-  ☐ ?Bestätigungsmail an Absender (Option)
+  ☐ ?Bestätigungsmail an Absender (Option) @low
   ✔ "About Me"-Text entwerfen @done(22-04-28 19:45)
   ✔ Intro-Text für Kontaktsektion @done(22-04-28 20:10)
   ✔ Portrait(s) einbinden @done(23-04-28 15:00)
@@ -17,7 +17,7 @@ Allgemein:
   Impressum, Datenschutz, Credits:
     ✔ Inhalte erstellen (z. B. über eRecht24) @done(23-04-18 20:59)
     ✔ CSS definieren @done(23-04-19 15:32)
-    ☐ Credits einfügen (siehe Credits.txt) @high
+    ✔ Credits einfügen (siehe Credits.txt) @done(23-05-01 13:24)
 
 Design:
   ✔ Darstellung Scrollbar @done(23-04-16 12:28)
