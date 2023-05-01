@@ -11,6 +11,10 @@ export class ProjectComponent {
 
   MAX_WIDTH = 1200;
 
+
+  /**
+   * Getter to obtain the current window width
+   */
   public get width() {
     return window.innerWidth;
   }

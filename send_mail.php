@@ -36,7 +36,7 @@ switch ($_SERVER['REQUEST_METHOD']) {
         exit;
     case ("POST"): //Send the email;
 
-        $subject = "Nachricht von " . $_POST['name'];
+        $subject = "Portfolio :: Nachricht von " . $_POST['name'];
         $headers = "From: " . $_POST['email'];
         $message = $_POST['message'];
 

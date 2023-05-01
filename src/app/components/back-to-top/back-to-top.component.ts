@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./back-to-top.component.scss']
 })
 export class BackToTopComponent {
+  /**
+   * Scrolls the page to the top
+   */
   scrollToTop() {
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;

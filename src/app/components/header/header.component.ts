@@ -11,6 +11,10 @@ export class HeaderComponent {
 
   constructor(public scrollService: ScrollService) {}
 
+
+  /**
+   * Toggles the mobile menu
+   */
   toggleMobileMenu() {
     this.mobileMenuActive = !this.mobileMenuActive;
   }

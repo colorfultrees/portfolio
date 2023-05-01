@@ -1,5 +1,5 @@
-import { Component, ViewChild, ElementRef } from '@angular/core';
-import { NgForm, NgModel } from '@angular/forms';
+import { Component } from '@angular/core';
+import { NgForm } from '@angular/forms';
 
 @Component({
   selector: 'app-contact-form',
@@ -17,7 +17,6 @@ export class ContactFormComponent {
    */
   async commitForm(data: any, form: NgForm) {
     await this.sendMail(data);
-    // this.hasMailSent = true;
     setTimeout(() => {
       this.hasMailSent = false;
       form.resetForm();
@@ -26,7 +25,7 @@ export class ContactFormComponent {
   
 
   /**
-   * Triggers the email
+   * Triggers the email dispatch
    * @param data - Data entered to the form
    */
   async sendMail(data: any) {

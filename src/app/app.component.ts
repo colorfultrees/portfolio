@@ -11,6 +11,9 @@ export class AppComponent implements OnInit {
   constructor(private scrollService: ScrollService) {}
 
   ngOnInit(): void {
+    /**
+     * Initiates the on-scroll animation library
+     */
     AOS.init(
       {
         offset: 100,
@@ -20,6 +23,10 @@ export class AppComponent implements OnInit {
     );
   }
 
+
+  /**
+   * Listener for scroll event
+   */
   @HostListener('window:scroll', []) onWindowScroll() {
     const header = document.getElementById('header') as HTMLDivElement;
     const verticalOffset: number =

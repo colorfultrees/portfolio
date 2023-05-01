@@ -68,6 +68,16 @@
         }
     }
 
+    .p-ref {
+        margin-bottom: 0;
+    }
+    
+    .ul-ref {
+        margin-top: 0;
+        padding-left: 0;
+        list-style-type: none;
+    }
+
     @media screen and (max-width: variables.$bp-3) {
         margin-top: variables.$content-header_height__small;
     }
