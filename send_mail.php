@@ -2,7 +2,7 @@
 
 ########### CONFIG ###############
 
-$recipient = 'cpmark@gmx.de';
+$recipient = 'contact@christof-mark.com';
 // $redirect = 'success.html';
 
 ########### CONFIG END ###########
