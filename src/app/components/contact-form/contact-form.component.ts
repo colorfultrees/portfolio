@@ -35,7 +35,7 @@ export class ContactFormComponent {
     formData.append('message', data.message);
     try {
         const response = await fetch (
-          'https://christof-mark.developerakademie.net/portfolio/send_mail.php',
+          'https://christof-mark.com/send_mail.php',
           {
             method: 'POST',
             body: formData
