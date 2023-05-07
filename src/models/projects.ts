@@ -27,7 +27,7 @@ export const projects: Array<Project> = [
             ALT: 'Screenshot from Pokédex'
         },
         APP_REF: {
-            URL: 'https://christof-mark.developerakademie.net/pokedex', // Update URL to own server space
+            URL: 'https://pokedex.christof-mark.com',
             GIT: 'https://github.com/colorfultrees/pokedex'
         },
         TEAM: false
@@ -41,7 +41,7 @@ export const projects: Array<Project> = [
             ALT: 'Screenshot from JOIN'
         },
         APP_REF: {
-            URL: 'https://christof-mark.developerakademie.net/join_app/join', // Update URL to own server space
+            URL: 'https://join.christof-mark.com',
             GIT: 'https://github.com/colorfultrees/join'
         },
         TEAM: true
@@ -55,7 +55,7 @@ export const projects: Array<Project> = [
             ALT: 'Screenshot from El Pollo Loco'
         } ,
         APP_REF: {
-            URL: 'https://christof-mark.developerakademie.net/el-pollo-loco', // Update URL to own server space
+            URL: 'https://el-pollo-loco.christof-mark.com',
             GIT: 'https://github.com/colorfultrees/el-pollo-loco'
         },
         TEAM: false
@@ -69,7 +69,7 @@ export const projects: Array<Project> = [
             ALT: 'Screenshot from Cynapse'
         },
         APP_REF: {
-            URL: 'https://christof-mark.developerakademie.net/cynapse', // Update URL to own server space
+            URL: 'https://cynapse.christof-mark.com',
             GIT: 'https://github.com/colorfultrees/cynapse'
         },
         TEAM: true

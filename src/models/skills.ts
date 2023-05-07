@@ -31,11 +31,6 @@ export const skills: Array<Skill> = [
         iconColor: 'assets/icons/typescript_color.png'
     },
     {
-        name: 'Rest API',
-        iconBlack: 'assets/icons/api.png',
-        iconColor: 'assets/icons/api_color.png'
-    },
-    {
         name: 'Angular',
         iconBlack: 'assets/icons/angular.png',
         iconColor: 'assets/icons/angular_color.png'
@@ -44,6 +39,16 @@ export const skills: Array<Skill> = [
         name: 'Angular Material UI',
         iconBlack: 'assets/icons/material.png',
         iconColor: 'assets/icons/material_color.png'
+    },
+    {
+        name: 'Bootstrap',
+        iconBlack: 'assets/icons/bootstrap.png',
+        iconColor: 'assets/icons/bootstrap_color.png'
+    },
+    {
+        name: 'Rest API',
+        iconBlack: 'assets/icons/api.png',
+        iconColor: 'assets/icons/api_color.png'
     },
     {
         name: 'Firebase',
