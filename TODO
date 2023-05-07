@@ -7,7 +7,7 @@ Allgemein:
   ✔ "About Me"-Text entwerfen @done(22-04-28 19:45)
   ✔ Intro-Text für Kontaktsektion @done(22-04-28 20:10)
   ✔ Portrait(s) einbinden @done(23-04-28 15:00)
-  ☐ E-Mail-Adresse von eigener Domain verwenden
+  ✔ E-Mail-Adresse von eigener Domain verwenden @done(23-05-07 14:35)
   ✔ Menü-Einträge mit Sektionen verlinken @done(23-04-17 19:00)
   ✔ Scrollposition für Menülinks anpassen (Überschrift verschwindet hinter Header!) @done(23-04-18 17:16)
   ✔ CLick auf "Legals" und "Home" muss Zielseite nach oben scrollen @done(23-04-19 15:31)
@@ -55,7 +55,7 @@ Abschnitt "Projekte":
   ✔ Projektbeschreibungen @done(23-04-20 17:30)
   ✔ Projektillustrationen @done(21-04-26 21:00)
   ✔ Slack-Clone: Name in App ändern (z. B. "gaggler") --> Neuer Name: Cynapse @done(23-04-24 16:07)
-  ☐ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace)
+  ✔ Projekt-URLs aktualisieren (Adresse auf eigenem Serverspace) @done(23-05-07 14:35)
 
 Code:
   ✔ Clean-up @done(23-04-30 20:54)
