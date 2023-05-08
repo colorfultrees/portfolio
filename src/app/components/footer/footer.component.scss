@@ -37,6 +37,11 @@ footer {
 
         img {
             height: 40px;
+            transition: transform 180ms ease-out;
+
+            &:hover {
+                transform: rotateZ(-15deg);
+            }
 
             @media screen and (max-width: variables.$bp-7) {
                 height: 32px;

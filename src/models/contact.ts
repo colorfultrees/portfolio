@@ -12,6 +12,7 @@ export const contactData = {
     email: 'contact@christof-mark.com',
     repo: 'https://github.com/colorfultrees',
     social: {
-        xing: '#' // TODO: insert link to Xing-Profile
+        xing: 'https://www.xing.com/profile/Christof_Mark',
+        linkedIn: 'https://www.linkedin.com/in/christof-mark-347003276'
     }
 }
