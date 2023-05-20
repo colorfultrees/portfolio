@@ -13,6 +13,6 @@ export const contactData = {
     repo: 'https://github.com/colorfultrees',
     social: {
         xing: 'https://www.xing.com/profile/Christof_Mark',
-        linkedIn: 'https://www.linkedin.com/in/christof-mark-347003276'
+        linkedIn: 'https://www.linkedin.com/in/christof-mark'
     }
 }
