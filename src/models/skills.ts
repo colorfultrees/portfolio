@@ -55,11 +55,11 @@ export const skills: Array<Skill> = [
         iconBlack: 'assets/icons/firebase.png',
         iconColor: 'assets/icons/firebase_color.png'
     },
-    {
-        name: 'Wordpress',
-        iconBlack: 'assets/icons/wordpress.png',
-        iconColor: 'assets/icons/wordpress_color.png'
-    },
+    // {
+    //     name: 'Wordpress',
+    //     iconBlack: 'assets/icons/wordpress.png',
+    //     iconColor: 'assets/icons/wordpress_color.png'
+    // },
     {
         name: 'git',
         iconBlack: 'assets/icons/git.png',
